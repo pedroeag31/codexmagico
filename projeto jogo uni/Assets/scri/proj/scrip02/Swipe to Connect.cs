@@ -4,14 +4,23 @@ using UnityEngine;
 public class RunaConector : MonoBehaviour
 {
     public LineRenderer linha;
-    private Dictionary<Transform, Transform> paresRunas = new Dictionary<Transform, Transform>(); // Par de runas corretas
+    public Transform runa1, runa2, runa3, runa4, runa5, runa6; // Defina no Inspector
+
+    private Dictionary<Transform, Transform> paresRunas = new Dictionary<Transform, Transform>(); // Pares corretos
     private Transform primeiraRuna; // Runa inicial da conexão
     private bool conectando = false;
 
     void Start()
     {
-        // Definir os pares no Inspector ou adicionar manualmente aqui
-        // Exemplo: paresRunas[runas[0]] = runas[1]; (e vice-versa)
+        // Definir os pares no início do jogo
+        paresRunas.Add(runa1, runa2);
+        paresRunas.Add(runa2, runa1);
+        paresRunas.Add(runa3, runa4);
+        paresRunas.Add(runa4, runa3);
+        paresRunas.Add(runa5, runa6);
+        paresRunas.Add(runa6, runa5);
+
+        linha.positionCount = 0; // Começa sem nenhuma linha desenhada
     }
 
     void Update()
@@ -23,6 +32,7 @@ public class RunaConector : MonoBehaviour
 
             if (toque.phase == TouchPhase.Began)
             {
+                linha.positionCount = 0; // Limpa a linha antes de começar uma nova conexão
                 Collider2D hit = Physics2D.OverlapPoint(posicaoToque);
                 if (hit != null && hit.CompareTag("Runa"))
                 {
@@ -50,6 +60,7 @@ public class RunaConector : MonoBehaviour
                     else
                     {
                         Debug.Log("Erro! Conexão inválida.");
+                        linha.positionCount = 0; // Apaga a linha apenas se for incorreto
                     }
                     conectando = false;
                 }
