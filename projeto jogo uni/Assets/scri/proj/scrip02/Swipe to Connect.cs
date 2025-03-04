@@ -1,11 +1,18 @@
-using System.Collections.Generic;
+ï»¿using System.Collections.Generic;
 using UnityEngine;
 
 public class RunaConector : MonoBehaviour
 {
     public LineRenderer linha;
-    private List<Transform> runasSelecionadas = new List<Transform>(); // Lista das runas conectadas
+    private Dictionary<Transform, Transform> paresRunas = new Dictionary<Transform, Transform>(); // Par de runas corretas
+    private Transform primeiraRuna; // Runa inicial da conexÃ£o
     private bool conectando = false;
+
+    void Start()
+    {
+        // Definir os pares no Inspector ou adicionar manualmente aqui
+        // Exemplo: paresRunas[runas[0]] = runas[1]; (e vice-versa)
+    }
 
     void Update()
     {
@@ -16,41 +23,42 @@ public class RunaConector : MonoBehaviour
 
             if (toque.phase == TouchPhase.Began)
             {
-                runasSelecionadas.Clear();
-                conectando = true;
-                linha.positionCount = 0;
+                Collider2D hit = Physics2D.OverlapPoint(posicaoToque);
+                if (hit != null && hit.CompareTag("Runa"))
+                {
+                    if (paresRunas.ContainsKey(hit.transform)) // Se for uma runa vÃ¡lida
+                    {
+                        primeiraRuna = hit.transform;
+                        conectando = true;
+                        linha.positionCount = 1;
+                        linha.SetPosition(0, primeiraRuna.position);
+                    }
+                }
             }
 
             if (toque.phase == TouchPhase.Moved && conectando)
             {
                 Collider2D hit = Physics2D.OverlapPoint(posicaoToque);
-                if (hit != null && hit.CompareTag("Runa") && !runasSelecionadas.Contains(hit.transform))
+                if (hit != null && hit.CompareTag("Runa") && hit.transform != primeiraRuna)
                 {
-                    runasSelecionadas.Add(hit.transform);
-                    linha.positionCount = runasSelecionadas.Count;
-                    linha.SetPosition(linha.positionCount - 1, hit.transform.position);
+                    if (paresRunas.ContainsKey(primeiraRuna) && paresRunas[primeiraRuna] == hit.transform)
+                    {
+                        linha.positionCount = 2;
+                        linha.SetPosition(1, hit.transform.position);
+                        Debug.Log("ConexÃ£o correta! FeitiÃ§o ativado!");
+                    }
+                    else
+                    {
+                        Debug.Log("Erro! ConexÃ£o invÃ¡lida.");
+                    }
+                    conectando = false;
                 }
             }
 
             if (toque.phase == TouchPhase.Ended)
             {
                 conectando = false;
-                VerificarSequencia();
             }
-        }
-    }
-
-    void VerificarSequencia()
-    {
-        // Aqui você pode verificar se a sequência de runas está correta
-        // Exemplo: comparar runasSelecionadas com uma sequência pré-definida
-        if (runasSelecionadas.Count == 4) // Exemplo de um código com 3 runas
-        {
-            Debug.Log("Feitiço ativado!");
-        }
-        else
-        {
-            Debug.Log("Código incorreto, tente novamente.");
         }
     }
 }
