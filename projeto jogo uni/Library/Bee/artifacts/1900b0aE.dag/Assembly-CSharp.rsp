@@ -432,6 +432,9 @@
 "Assets/scri/proj/scrip01/scri/Inimigo.cs"
 "Assets/scri/proj/scrip01/scri/PlayerRunner.cs"
 "Assets/scri/proj/scripm01/Swipe to Connect.cs"
+"Assets/scri/proj/scripmap/InteragirComPortas.cs"
+"Assets/scri/proj/scripmap/MovimentoJogador.cs"
+"Assets/scri/proj/scripmap/Portal.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic
