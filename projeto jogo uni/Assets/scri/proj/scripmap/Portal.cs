@@ -8,20 +8,25 @@ public class Portal : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Verifica se o objeto que colidiu com o portal tem a tag "Jogador"
-        if (other.CompareTag("Jogador"))
+        Debug.Log("Colisão detectada com: " + other.gameObject.name); // TESTE
+
+        if (other.CompareTag("Jogador")) // Verifica se o objeto tem a tag "Jogador"
         {
-            // O jogador pode interagir com o portal
+            Debug.Log("Jogador entrou no portal: " + nomeCena); // TESTE
             InteragirComPortal(other.transform);
         }
     }
 
     private void InteragirComPortal(Transform jogadorTransform)
     {
-        // Verifica se o jogador está dentro da distância de interação
         if (Vector2.Distance(jogadorTransform.position, transform.position) < distanciaDeInteracao)
         {
-            CarregarCena(); // Carrega a cena associada ao portal
+            Debug.Log("Jogador está perto o suficiente do portal. Carregando cena..."); // TESTE
+            CarregarCena();
+        }
+        else
+        {
+            Debug.Log("Jogador muito longe do portal."); // TESTE
         }
     }
 
@@ -29,7 +34,12 @@ public class Portal : MonoBehaviour
     {
         if (!string.IsNullOrEmpty(nomeCena))
         {
-            SceneManager.LoadScene(nomeCena); // Carrega a cena associada ao portal
+            Debug.Log("Carregando a cena: " + nomeCena); // TESTE
+            SceneManager.LoadScene(nomeCena);
+        }
+        else
+        {
+            Debug.LogWarning("Nome da cena está vazio!"); // TESTE
         }
     }
 }
