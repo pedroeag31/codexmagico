@@ -63,7 +63,7 @@ public class JogoDaMemoria : MonoBehaviour
         for (int i = 0; i < spritesParaSelecionar.Count; i++)
         {
             GameObject novaCarta = Instantiate(cartaPrefab, transform);
-            novaCarta.GetComponent<Carta>().DefinirImagem(spritesParaSelecionar[i]);
+            novaCarta.GetComponent<Carta>().DefinirImagem(spritesParaSelecionar[i]); // Define a imagem revelada
             novaCarta.GetComponent<Carta>().index = i;
             cartas.Add(novaCarta);
         }

@@ -149,4 +149,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ImagemOculta: {fileID: -5706190518321120510, guid: 149bba51d2a170746b2833aa2d234857, type: 3}
   ImagemRevelada: {fileID: 8832167503239892954, guid: b2ad5da7ec148ff4ba95de9c247ccbf3, type: 3}
-  index: 0
+  index: 1

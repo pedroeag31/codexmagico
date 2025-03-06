@@ -2,33 +2,34 @@ using UnityEngine;
 
 public class Carta : MonoBehaviour
 {
-    public Sprite ImagemOculta; // Imagem oculta no início
-    public Sprite ImagemRevelada; // Imagem revelada quando o jogador interage
-    public int index; // Índice da carta
+    public Sprite ImagemOculta; // A imagem de fundo (oculta)
+    public Sprite ImagemRevelada; // A imagem real da carta
+    private SpriteRenderer spriteRenderer;
+    public int index; // ID único da carta
 
-    private JogoDaMemoria jogo;
-
-    void Start()
+    private void Start()
     {
-        jogo = FindObjectOfType<JogoDaMemoria>();
-        GetComponent<SpriteRenderer>().sprite = ImagemOculta;
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.sprite = ImagemOculta; // Começa oculta
     }
 
-    // Definir a imagem que será revelada
     public void DefinirImagem(Sprite imagem)
     {
         ImagemRevelada = imagem;
     }
 
-    // Função para ser chamada quando a carta for clicada
-    void OnMouseDown()
+    public void Revelar()
     {
-        jogo.RevelarCarta(gameObject);
+        spriteRenderer.sprite = ImagemRevelada; // Muda para a imagem real
     }
 
-    // Função para desabilitar a carta quando um par correto for feito
+    public void Ocultar()
+    {
+        spriteRenderer.sprite = ImagemOculta; // Volta para a oculta
+    }
+
     public void Desabilitar()
     {
-        gameObject.SetActive(false);
+        gameObject.SetActive(false); // Remove do jogo quando encontrada
     }
 }
