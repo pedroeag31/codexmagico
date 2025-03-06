@@ -130,7 +130,8 @@ GameObject:
   - component: {fileID: 519240502}
   - component: {fileID: 519240501}
   - component: {fileID: 519240500}
-  m_Layer: 0
+  - component: {fileID: 519240503}
+  m_Layer: 3
   m_Name: min03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -167,7 +168,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -237,12 +238,26 @@ Transform:
   m_GameObject: {fileID: 519240499}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.08, y: -3.89, z: 0}
+  m_LocalPosition: {x: -3.26, y: -3.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519240503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519240499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6a741381253c7845a2f0839828b947d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nomeCena: 
+  distanciaDeInteracao: 0.5
 --- !u!1 &726266016
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,7 +439,7 @@ GameObject:
   - component: {fileID: 918638320}
   - component: {fileID: 918638319}
   - component: {fileID: 918638323}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: play
   m_TagString: Jogador
   m_Icon: {fileID: 0}
@@ -474,7 +489,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -589,7 +604,8 @@ GameObject:
   - component: {fileID: 1294709877}
   - component: {fileID: 1294709876}
   - component: {fileID: 1294709875}
-  m_Layer: 0
+  - component: {fileID: 1294709878}
+  m_Layer: 3
   m_Name: min02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -696,12 +712,26 @@ Transform:
   m_GameObject: {fileID: 1294709874}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.02, y: -2.76, z: 0}
+  m_LocalPosition: {x: 6.14, y: -3.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1294709878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294709874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6a741381253c7845a2f0839828b947d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nomeCena: minigame02
+  distanciaDeInteracao: 0.5
 --- !u!1 &1823069631
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,7 +845,7 @@ GameObject:
   - component: {fileID: 1897997577}
   - component: {fileID: 1897997576}
   - component: {fileID: 1897997579}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: min01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -941,7 +971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nomeCena: minigame01
-  distanciaDeInteracao: 0.5
+  distanciaDeInteracao: 1
 --- !u!1 &1986004602
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,7 +1062,8 @@ GameObject:
   - component: {fileID: 2022628017}
   - component: {fileID: 2022628016}
   - component: {fileID: 2022628015}
-  m_Layer: 0
+  - component: {fileID: 2022628018}
+  m_Layer: 3
   m_Name: min04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1139,12 +1170,26 @@ Transform:
   m_GameObject: {fileID: 2022628014}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.87, y: 3.93, z: 0}
+  m_LocalPosition: {x: 2.85, y: 3.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2022628018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022628014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6a741381253c7845a2f0839828b947d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nomeCena: 
+  distanciaDeInteracao: 0.5
 --- !u!1 &2146753063
 GameObject:
   m_ObjectHideFlags: 0
