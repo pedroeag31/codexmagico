@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Runa
+  - Jogador
   layers:
   - Default
   - TransparentFX
