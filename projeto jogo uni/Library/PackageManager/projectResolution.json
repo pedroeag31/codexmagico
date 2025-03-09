@@ -19,6 +19,16 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.adaptiveperformance@5.1.2": {
+      "name": "com.unity.adaptiveperformance",
+      "displayName": "Adaptive Performance",
+      "resolvedPath": "C:\\Users\\iseac\\OneDrive\\Área de Trabalho\\codexmagico\\projeto jogo uni\\Library\\PackageCache\\com.unity.adaptiveperformance@2961d8aca93b",
+      "fingerprint": "2961d8aca93bc786af4fb7d22e01cc649cf9c3d0",
+      "editorCompatibility": "2022.3.0f1",
+      "version": "5.1.2",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.collab-proxy@2.7.1": {
       "name": "com.unity.collab-proxy",
       "displayName": "Version Control",
@@ -458,6 +468,16 @@
       "fingerprint": "60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.profiling.core@1.0.2": {
+      "name": "com.unity.profiling.core",
+      "displayName": "Unity Profiling Core API",
+      "resolvedPath": "C:\\Users\\iseac\\OneDrive\\Área de Trabalho\\codexmagico\\projeto jogo uni\\Library\\PackageCache\\com.unity.profiling.core@aac7b93912bc",
+      "fingerprint": "aac7b93912bc5df5fe06b04ff1b758493cdc2346",
+      "editorCompatibility": "2020.1.0a1",
+      "version": "1.0.2",
       "source": "registry",
       "testable": false
     },
