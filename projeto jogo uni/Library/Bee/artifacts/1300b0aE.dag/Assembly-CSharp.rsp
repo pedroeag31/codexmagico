@@ -436,6 +436,7 @@
 "Assets/scri/proj/scripm02/JogoDaMemoria.cs"
 "Assets/scri/proj/scripmap/MovimentoJogador.cs"
 "Assets/scri/proj/scripmap/Portal.cs"
+"Assets/scri/proj/sripquebra/ArrastarPeca.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic
