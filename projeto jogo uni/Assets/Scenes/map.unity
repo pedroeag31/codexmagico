@@ -731,7 +731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nomeCena: minigame02
-  distanciaDeInteracao: 0.5
+  distanciaDeInteracao: 1
 --- !u!1 &1823069631
 GameObject:
   m_ObjectHideFlags: 0
