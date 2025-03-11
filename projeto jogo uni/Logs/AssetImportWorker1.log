@@ -1,0 +1,1871 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.39f1 (15ea7ed0b100) revision 1436286'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'pt' Physical Memory: 32675 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.39f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Win11/Documents/Unity/codexmagico/projeto jogo uni
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57663
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/Win11/Documents/Unity/codexmagico/projeto jogo uni
+C:/Users/Win11/Documents/Unity/codexmagico/projeto jogo uni
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20384]  Target information:
+
+Player connection [20384]  * "[IP] 192.168.18.19 [Port] 0 [Flags] 2 [Guid] 3663275874 [EditorId] 3663275874 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IS22320) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20384]  * "[IP] 26.6.146.206 [Port] 0 [Flags] 2 [Guid] 3663275874 [EditorId] 3663275874 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IS22320) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20384]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 3663275874 [EditorId] 3663275874 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IS22320) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20384] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20384] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 97.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.39f1 (15ea7ed0b100)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Win11/Documents/Unity/codexmagico/projeto jogo uni/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   NVIDIA
+    VRAM:     12110 MB
+    Driver:   32.0.15.7216
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.006074 seconds.
+- Loaded All Assemblies, in  7.589 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 287 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.761 seconds
+Domain Reload Profiling: 8345ms
+	BeginReloadAssembly (5994ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (480ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (1031ms)
+		LoadAssemblies (5988ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1027ms)
+			TypeCache.Refresh (1025ms)
+				TypeCache.ScanAssembly (752ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (761ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (704ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (397ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (152ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+- Loaded All Assemblies, in  8.908 seconds
+Failed to load build profile from Library/BuildProfiles/PlatformProfile.4e3c793746204150860bf175a9a41a05.asset.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232ff262d4d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232ff262c13 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232ff26284b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232ff2625d0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232ff26228a (Mono JIT Code) UnityEngine.Debug:LogWarning (object)
+0x00000232ff2f6f1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+0x00000232ff2f63b8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4ce034 (Unity) scripting_method_invoke
+0x00007ff92e4a5db3 (Unity) ScriptingInvocation::Invoke
+0x00007ff92e4a5e9e (Unity) ScriptingInvocation::InvokeChecked
+0x00007ff92e5501e6 (Unity) SerializableManagedRef::CallMethod
+0x00007ff92e490224 (Unity) MonoBehaviour::AwakeFromLoad
+0x00007ff92e49b551 (Unity) ResetAndApplyDefaultReferencesOnNewMonoBehaviour
+0x00007ff92e4a4261 (Unity) Scripting::CreateScriptableObjectWithType
+0x00007ff92d6505ad (Unity) ScriptableObject_CUSTOM_CreateScriptableObjectInstanceFromType
+0x00000232ff2f60bd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType_Injected (System.Type,bool)
+0x00000232ff2f5e9b (Mono JIT Code) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+0x00000232ff2f5e43 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance (System.Type)
+0x00000232ff2f5dc3 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance<T_REF> ()
+0x00000232ff2f57eb (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:CreateOrLoad ()
+0x00000232ff2f5643 (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:get_instance ()
+0x00000232ff2f4e4b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:GetActiveOrClassicBuildProfile (UnityEditor.BuildTarget,UnityEditor.StandaloneBuildSubtarget,string)
+0x00000232ff2f5286 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_int_int_object (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4ce034 (Unity) scripting_method_invoke
+0x00007ff92e4a5db3 (Unity) ScriptingInvocation::Invoke
+0x00007ff92e4a0fee (Unity) ScriptingInvocation::Invoke<ScriptingObjectPtr>
+0x00007ff92e5fe3d7 (Unity) Scripting::UnityEditor::Build::Profile::BuildProfileContextProxy::GetActiveOrClassicBuildProfile
+0x00007ff92f0fa100 (Unity) EditorUserBuildSettings::GetSelectedAndroidBuildTextureSubtarget
+0x00007ff92f0f4078 (Unity) EditorUserBuildSettings::GetActiveSubTargetFor
+0x00007ff92f38fb0c (Unity) GetPlaybackEngineVariationManagedDirectory
+0x00007ff92f3919fa (Unity) GetUnityEngineDllForBuildTarget
+0x00007ff92f6c88cd (Unity) GetUnityAssemblies
+0x00007ff92f6d2d18 (Unity) GetUnityAssembliesManaged
+0x00007ff92f6d34a6 (Unity) InitializeManagedCompilationPipeline
+0x00007ff92f6d614b (Unity) ReinitializeUserTargetAssemblies
+0x00007ff92fb059f5 (Unity) UpdateScriptCompilationPipelineCaches
+0x00007ff92fa1c4a4 (Unity) AssetImportWorkerClient::RegisterTransientArtifacts
+0x00007ff92fa1c72a (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f73c7 (Unity) <lambda_f96845ab1106210ce31769f863340c0d>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a1e (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+Failed to load build profile from Library/BuildProfiles/PlatformProfile.b9b35072a6f44c2e863f17467ea3dc13.asset.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232ff262d4d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232ff262c13 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232ff26284b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232ff2625d0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232ff26228a (Mono JIT Code) UnityEngine.Debug:LogWarning (object)
+0x00000232ff2f6f1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+0x00000232ff2f63b8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4ce034 (Unity) scripting_method_invoke
+0x00007ff92e4a5db3 (Unity) ScriptingInvocation::Invoke
+0x00007ff92e4a5e9e (Unity) ScriptingInvocation::InvokeChecked
+0x00007ff92e5501e6 (Unity) SerializableManagedRef::CallMethod
+0x00007ff92e490224 (Unity) MonoBehaviour::AwakeFromLoad
+0x00007ff92e49b551 (Unity) ResetAndApplyDefaultReferencesOnNewMonoBehaviour
+0x00007ff92e4a4261 (Unity) Scripting::CreateScriptableObjectWithType
+0x00007ff92d6505ad (Unity) ScriptableObject_CUSTOM_CreateScriptableObjectInstanceFromType
+0x00000232ff2f60bd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType_Injected (System.Type,bool)
+0x00000232ff2f5e9b (Mono JIT Code) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+0x00000232ff2f5e43 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance (System.Type)
+0x00000232ff2f5dc3 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance<T_REF> ()
+0x00000232ff2f57eb (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:CreateOrLoad ()
+0x00000232ff2f5643 (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:get_instance ()
+0x00000232ff2f4e4b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:GetActiveOrClassicBuildProfile (UnityEditor.BuildTarget,UnityEditor.StandaloneBuildSubtarget,string)
+0x00000232ff2f5286 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_int_int_object (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4ce034 (Unity) scripting_method_invoke
+0x00007ff92e4a5db3 (Unity) ScriptingInvocation::Invoke
+0x00007ff92e4a0fee (Unity) ScriptingInvocation::Invoke<ScriptingObjectPtr>
+0x00007ff92e5fe3d7 (Unity) Scripting::UnityEditor::Build::Profile::BuildProfileContextProxy::GetActiveOrClassicBuildProfile
+0x00007ff92f0fa100 (Unity) EditorUserBuildSettings::GetSelectedAndroidBuildTextureSubtarget
+0x00007ff92f0f4078 (Unity) EditorUserBuildSettings::GetActiveSubTargetFor
+0x00007ff92f38fb0c (Unity) GetPlaybackEngineVariationManagedDirectory
+0x00007ff92f3919fa (Unity) GetUnityEngineDllForBuildTarget
+0x00007ff92f6c88cd (Unity) GetUnityAssemblies
+0x00007ff92f6d2d18 (Unity) GetUnityAssembliesManaged
+0x00007ff92f6d34a6 (Unity) InitializeManagedCompilationPipeline
+0x00007ff92f6d614b (Unity) ReinitializeUserTargetAssemblies
+0x00007ff92fb059f5 (Unity) UpdateScriptCompilationPipelineCaches
+0x00007ff92fa1c4a4 (Unity) AssetImportWorkerClient::RegisterTransientArtifacts
+0x00007ff92fa1c72a (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f73c7 (Unity) <lambda_f96845ab1106210ce31769f863340c0d>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a1e (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+Failed to load shared profile from Library/BuildProfiles/SharedProfile.asset.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232ff262d4d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232ff262c13 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232ff26284b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232ff2625d0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232ff26228a (Mono JIT Code) UnityEngine.Debug:LogWarning (object)
+0x00000232ff2f7163 (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+0x00000232ff2f63b8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4ce034 (Unity) scripting_method_invoke
+0x00007ff92e4a5db3 (Unity) ScriptingInvocation::Invoke
+0x00007ff92e4a5e9e (Unity) ScriptingInvocation::InvokeChecked
+0x00007ff92e5501e6 (Unity) SerializableManagedRef::CallMethod
+0x00007ff92e490224 (Unity) MonoBehaviour::AwakeFromLoad
+0x00007ff92e49b551 (Unity) ResetAndApplyDefaultReferencesOnNewMonoBehaviour
+0x00007ff92e4a4261 (Unity) Scripting::CreateScriptableObjectWithType
+0x00007ff92d6505ad (Unity) ScriptableObject_CUSTOM_CreateScriptableObjectInstanceFromType
+0x00000232ff2f60bd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType_Injected (System.Type,bool)
+0x00000232ff2f5e9b (Mono JIT Code) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+0x00000232ff2f5e43 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance (System.Type)
+0x00000232ff2f5dc3 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance<T_REF> ()
+0x00000232ff2f57eb (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:CreateOrLoad ()
+0x00000232ff2f5643 (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:get_instance ()
+0x00000232ff2f4e4b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:GetActiveOrClassicBuildProfile (UnityEditor.BuildTarget,UnityEditor.StandaloneBuildSubtarget,string)
+0x00000232ff2f5286 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_int_int_object (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4ce034 (Unity) scripting_method_invoke
+0x00007ff92e4a5db3 (Unity) ScriptingInvocation::Invoke
+0x00007ff92e4a0fee (Unity) ScriptingInvocation::Invoke<ScriptingObjectPtr>
+0x00007ff92e5fe3d7 (Unity) Scripting::UnityEditor::Build::Profile::BuildProfileContextProxy::GetActiveOrClassicBuildProfile
+0x00007ff92f0fa100 (Unity) EditorUserBuildSettings::GetSelectedAndroidBuildTextureSubtarget
+0x00007ff92f0f4078 (Unity) EditorUserBuildSettings::GetActiveSubTargetFor
+0x00007ff92f38fb0c (Unity) GetPlaybackEngineVariationManagedDirectory
+0x00007ff92f3919fa (Unity) GetUnityEngineDllForBuildTarget
+0x00007ff92f6c88cd (Unity) GetUnityAssemblies
+0x00007ff92f6d2d18 (Unity) GetUnityAssembliesManaged
+0x00007ff92f6d34a6 (Unity) InitializeManagedCompilationPipeline
+0x00007ff92f6d614b (Unity) ReinitializeUserTargetAssemblies
+0x00007ff92fb059f5 (Unity) UpdateScriptCompilationPipelineCaches
+0x00007ff92fa1c4a4 (Unity) AssetImportWorkerClient::RegisterTransientArtifacts
+0x00007ff92fa1c72a (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f73c7 (Unity) <lambda_f96845ab1106210ce31769f863340c0d>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a1e (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232ff262d4d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232ff262c13 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232ff26284b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232ff2625d0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x000002330e9a1475 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000232ff2f62bb (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000232ff2f63b8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f73c7 (Unity) <lambda_f96845ab1106210ce31769f863340c0d>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a1e (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+Mono: successfully reloaded assembly
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.090 seconds
+Domain Reload Profiling: 9989ms
+	BeginReloadAssembly (3107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2899ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (5694ms)
+		LoadAssemblies (5357ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (449ms)
+			TypeCache.Refresh (377ms)
+				TypeCache.ScanAssembly (311ms)
+			BuildScriptInfoCaches (60ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1090ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (689ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (258ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 193 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6456 unused Assets / (6.4 MB). Loaded Objects now: 7182.
+Memory consumption went from 180.7 MB to 174.3 MB.
+Total: 11.884200 ms (FindLiveObjects: 0.646500 ms CreateObjectMapping: 0.719100 ms MarkObjects: 6.253300 ms  DeleteObjects: 4.264500 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.773 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000233147ef8cd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000233147ef793 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000233147ef0fb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000233147eee80 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000233147eeb37 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000233147eaf1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000233146521e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000233147ef8cd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000233147ef793 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000233147ef0fb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000233147eee80 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000233147eeb37 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000233147eaf1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000233146521e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+ArgumentException: An item with the same key has already been added. Key: 4e3c793746204150860bf175a9a41a05
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <eb0ef51e5908461ca908fdf6b2dbd966>:0 
+  at UnityEditor.Build.Profile.BuildProfileContext.OnEnable () [0x00070] in <b47d645d7067453f81375d5477450acd>:0 
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.748 seconds
+Domain Reload Profiling: 1517ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (459ms)
+		LoadAssemblies (384ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (165ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (749ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (497ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 3.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6454 unused Assets / (5.7 MB). Loaded Objects now: 7200.
+Memory consumption went from 164.5 MB to 158.9 MB.
+Total: 15.711900 ms (FindLiveObjects: 1.384600 ms CreateObjectMapping: 2.170900 ms MarkObjects: 8.104400 ms  DeleteObjects: 4.051000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 8716.160112 seconds.
+  path: Assets/Game Designe/Scripts/GameManagerDesigne.cs
+  artifactKey: Guid(52f7f9af07171ea4a862e74b2dc59a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Designe/Scripts/GameManagerDesigne.cs using Guid(52f7f9af07171ea4a862e74b2dc59a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '167bb9653087f08e55516ca42b84e151') in 0.0108616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6441 unused Assets / (5.0 MB). Loaded Objects now: 7202.
+Memory consumption went from 163.4 MB to 158.4 MB.
+Total: 8.683200 ms (FindLiveObjects: 0.632800 ms CreateObjectMapping: 0.689600 ms MarkObjects: 4.982600 ms  DeleteObjects: 2.377500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2181.246738 seconds.
+  path: Assets/Game Designe/Scripts/GameManagerDesigne.cs
+  artifactKey: Guid(52f7f9af07171ea4a862e74b2dc59a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Designe/Scripts/GameManagerDesigne.cs using Guid(52f7f9af07171ea4a862e74b2dc59a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80308b11a0986133c36b6fd9fcaae2cb') in 0.0017119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6441 unused Assets / (5.3 MB). Loaded Objects now: 7202.
+Memory consumption went from 163.4 MB to 158.1 MB.
+Total: 14.553100 ms (FindLiveObjects: 1.055600 ms CreateObjectMapping: 0.783300 ms MarkObjects: 8.708800 ms  DeleteObjects: 4.003900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.675 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232da4bfcfd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232fae7feb3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232fae7f81b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232fae7f5a0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232fae7f257 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000232fae7b63b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000232ff262548 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232da4bfcfd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232fae7feb3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232fae7f81b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232fae7f5a0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232fae7f257 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000232fae7b63b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000232ff262548 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.601 seconds
+Domain Reload Profiling: 1274ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (320ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (144ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (601ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (431ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6454 unused Assets / (5.1 MB). Loaded Objects now: 7204.
+Memory consumption went from 163.4 MB to 158.3 MB.
+Total: 12.004700 ms (FindLiveObjects: 1.015100 ms CreateObjectMapping: 0.661100 ms MarkObjects: 7.095500 ms  DeleteObjects: 3.231800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.657 seconds
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232fc03f8cd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232fc03f793 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232fc03f0fb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232fc03ee80 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232fc03eb37 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000232fc03af1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000233147b21e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232fc03f8cd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232fc03f793 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232fc03f0fb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232fc03ee80 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232fc03eb37 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000232fc03af1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000233147b21e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.630 seconds
+Domain Reload Profiling: 1284ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (630ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (455ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6454 unused Assets / (4.8 MB). Loaded Objects now: 7206.
+Memory consumption went from 163.4 MB to 158.6 MB.
+Total: 7.932600 ms (FindLiveObjects: 0.627200 ms CreateObjectMapping: 0.357200 ms MarkObjects: 4.788600 ms  DeleteObjects: 2.158800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.807 seconds
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x000002330723fcbd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232da4bfeb3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232da4bf81b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232da4bf5a0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232da4bf257 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000232da4bb63b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x0000023307212548 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x000002330723fcbd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232da4bfeb3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232da4bf81b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232da4bf5a0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232da4bf257 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000232da4bb63b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x0000023307212548 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.704 seconds
+Domain Reload Profiling: 1504ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (67ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (463ms)
+		LoadAssemblies (364ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (171ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (704ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (501ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6454 unused Assets / (5.2 MB). Loaded Objects now: 7208.
+Memory consumption went from 163.4 MB to 158.2 MB.
+Total: 7.726700 ms (FindLiveObjects: 0.677500 ms CreateObjectMapping: 0.678600 ms MarkObjects: 4.029300 ms  DeleteObjects: 2.340700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 930.001670 seconds.
+  path: Assets/Game Designe/Sprites/erro.mp3
+  artifactKey: Guid(4e1c6138769be2b4a9edc7acd41dc6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Designe/Sprites/erro.mp3 using Guid(4e1c6138769be2b4a9edc7acd41dc6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2273ba8393185d524becc78554b365f') in 0.0808756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.802 seconds
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232fae6f8cd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232fae6f793 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232fae6f0fb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232fae6ee80 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232fae6eb37 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000232fae6af1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000233147e21e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232fae6f8cd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232fae6f793 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232fae6f0fb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232fae6ee80 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232fae6eb37 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000232fae6af1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000233147e21e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.723 seconds
+Domain Reload Profiling: 1523ms
+	BeginReloadAssembly (314ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (120ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (350ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (163ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (146ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (723ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (508ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 3.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6454 unused Assets / (6.9 MB). Loaded Objects now: 7219.
+Memory consumption went from 163.6 MB to 156.6 MB.
+Total: 16.142800 ms (FindLiveObjects: 0.821200 ms CreateObjectMapping: 0.975900 ms MarkObjects: 7.305100 ms  DeleteObjects: 7.039100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.746 seconds
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232fae7f90d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232fae7f7d3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232fae7f13b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232fae7eec0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232fae7eb77 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000232fae7af1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000233072221e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232fae7f90d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232fae7f7d3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232fae7f13b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232fae7eec0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232fae7eb77 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000232fae7af1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000233072221e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 1366ms
+	BeginReloadAssembly (261ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (99ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (410ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (150ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (623ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (452ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 4.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6454 unused Assets / (5.0 MB). Loaded Objects now: 7221.
+Memory consumption went from 163.6 MB to 158.6 MB.
+Total: 9.614100 ms (FindLiveObjects: 0.682300 ms CreateObjectMapping: 0.461900 ms MarkObjects: 6.005900 ms  DeleteObjects: 2.461300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.670 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000233147ef8cd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000233147ef793 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000233147ef0fb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000233147eee80 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000233147eeb37 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000233147eaf1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000233147b21e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000233147ef8cd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000233147ef793 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000233147ef0fb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000233147eee80 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000233147eeb37 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000233147eaf1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000233147b21e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.674 seconds
+Domain Reload Profiling: 1342ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (51ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (391ms)
+		LoadAssemblies (326ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (674ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (499ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 3.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6454 unused Assets / (5.2 MB). Loaded Objects now: 7223.
+Memory consumption went from 163.6 MB to 158.4 MB.
+Total: 11.610400 ms (FindLiveObjects: 0.624600 ms CreateObjectMapping: 0.414600 ms MarkObjects: 6.776600 ms  DeleteObjects: 3.793400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6441 unused Assets / (5.3 MB). Loaded Objects now: 7223.
+Memory consumption went from 163.6 MB to 158.3 MB.
+Total: 15.756000 ms (FindLiveObjects: 1.142300 ms CreateObjectMapping: 1.084900 ms MarkObjects: 9.216000 ms  DeleteObjects: 4.311000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.810 seconds
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232ff28fddd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232ff29feb3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232ff29f81b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232ff29f5a0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232ff29f257 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000232ff29b63b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000232ff262548 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232ff28fddd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232ff29feb3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232ff29f81b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232ff29f5a0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232ff29f257 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000232ff29b63b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000232ff262548 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.654 seconds
+Domain Reload Profiling: 1458ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (47ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (377ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (173ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (654ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6454 unused Assets / (4.9 MB). Loaded Objects now: 7225.
+Memory consumption went from 163.6 MB to 158.8 MB.
+Total: 6.931700 ms (FindLiveObjects: 0.627500 ms CreateObjectMapping: 0.394700 ms MarkObjects: 3.930300 ms  DeleteObjects: 1.978400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.658 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x000002330778f90d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x000002330778f7d3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x000002330778f13b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x000002330778eec0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x000002330778eb77 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x000002330778af5b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000233072321e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x000002330778f90d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x000002330778f7d3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x000002330778f13b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x000002330778eec0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x000002330778eb77 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x000002330778af5b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000233072321e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.674 seconds
+Domain Reload Profiling: 1329ms
+	BeginReloadAssembly (197ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (394ms)
+		LoadAssemblies (320ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (138ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (675ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (505ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6454 unused Assets / (5.0 MB). Loaded Objects now: 7227.
+Memory consumption went from 163.6 MB to 158.6 MB.
+Total: 8.272300 ms (FindLiveObjects: 0.601400 ms CreateObjectMapping: 0.631800 ms MarkObjects: 4.781200 ms  DeleteObjects: 2.256900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.780 seconds
+Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000233147dfd9d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000233147efeb3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000233147ef81b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000233147ef5a0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000233147ef257 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000233147eb63b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000233147b2548 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000233147dfd9d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000233147efeb3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000233147ef81b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000233147ef5a0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000233147ef257 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000233147eb63b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000233147b2548 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.724 seconds
+Domain Reload Profiling: 1501ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (61ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (463ms)
+		LoadAssemblies (370ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (160ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (725ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (516ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6454 unused Assets / (5.2 MB). Loaded Objects now: 7229.
+Memory consumption went from 163.6 MB to 158.5 MB.
+Total: 9.502400 ms (FindLiveObjects: 1.542700 ms CreateObjectMapping: 0.996600 ms MarkObjects: 4.532700 ms  DeleteObjects: 2.429900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.724 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232fae7f8cd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232fae7f793 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232fae7f0fb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232fae7ee80 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232fae7eb37 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000232fae7af1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000232fd9c21e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+BuildProfileContext singleton already exists.
+0x00007ff92e5a9d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e5b9ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f8273ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fdcfeef (Unity) DebugStringToFile
+0x00007ff92d6fa9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x00000232fae7f8cd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x00000232fae7f793 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x00000232fae7f0fb (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x00000232fae7ee80 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x00000232fae7eb37 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x00000232fae7af1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x00000232fd9c21e8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff9293768de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff9292b8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff9292b84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4703a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e4cfd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e551cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e471f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5523ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e493de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f9ccd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92fa1c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9f612c (Unity) <lambda_94302c41bc55323db1fed16712a08587>::operator()
+0x00007ff92fad9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fac76ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fac8a54 (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92fad847c (Unity) IOService::Run
+0x00007ff92fa207a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92fa2086b (Unity) RunAssetImporterV2
+0x00007ff92f22a0e8 (Unity) Application::InitializeProject
+0x00007ff92f8319a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
+
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1429ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (73ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (419ms)
+		LoadAssemblies (335ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (148ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (708ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (493ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 4.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6454 unused Assets / (5.5 MB). Loaded Objects now: 7231.
+Memory consumption went from 163.7 MB to 158.2 MB.
+Total: 16.221700 ms (FindLiveObjects: 1.269700 ms CreateObjectMapping: 1.155100 ms MarkObjects: 9.674100 ms  DeleteObjects: 4.121000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
