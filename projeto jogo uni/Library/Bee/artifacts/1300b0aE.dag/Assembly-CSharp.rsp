@@ -438,6 +438,7 @@
 "Assets/scri/proj/scrip01/scri/Disparo.cs"
 "Assets/scri/proj/scrip01/scri/Inimigo.cs"
 "Assets/scri/proj/scrip01/scri/PlayerRunner.cs"
+"Assets/scri/proj/scripcam/CameraTouchControl.cs"
 "Assets/scri/proj/scripm01/Swipe to Connect.cs"
 "Assets/scri/proj/scripm02/Carta.cs"
 "Assets/scri/proj/scripm02/JogoDaMemoria.cs"
