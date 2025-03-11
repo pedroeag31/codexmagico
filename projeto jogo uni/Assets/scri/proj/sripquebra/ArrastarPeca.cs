@@ -1,44 +1,58 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
 
-public class ArrastarPeca : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndDragHandler
+public class ArrastarPeca : MonoBehaviour
 {
-    private RectTransform rectTransform;
     private Vector3 posicaoInicial;
-    private CanvasGroup canvasGroup;
+    private bool arrastando = false;
+    private Vector3 offset; // Ajuste para tocar corretamente na peça
 
     void Start()
     {
-        rectTransform = GetComponent<RectTransform>();
-        canvasGroup = GetComponent<CanvasGroup>();
-        posicaoInicial = rectTransform.position;
+        posicaoInicial = transform.position; // Salva a posição inicial
     }
 
-    public void OnBeginDrag(PointerEventData eventData)
+    void Update()
     {
-        canvasGroup.alpha = 0.7f; // Deixa a peça semi-transparente ao arrastar
-        canvasGroup.blocksRaycasts = false; // Permite que o Raycast passe pela peça
-    }
-
-    public void OnDrag(PointerEventData eventData)
-    {
-        rectTransform.position = Input.mousePosition; // Move a peça com o cursor
-    }
-
-    public void OnEndDrag(PointerEventData eventData)
-    {
-        canvasGroup.alpha = 1f;
-        canvasGroup.blocksRaycasts = true;
-
-        // Verifica se está na posição correta
-        if (Vector3.Distance(rectTransform.position, posicaoInicial) < 50f)
+        if (Input.touchCount > 0)
         {
-            rectTransform.position = posicaoInicial; // Encaixa a peça
-            Debug.Log("Pedaço encaixado!");
-        }
-        else
-        {
-            Debug.Log("Posição errada!");
+            Touch touch = Input.GetTouch(0);
+            Vector3 toquePosicao = Camera.main.ScreenToWorldPoint(touch.position);
+            toquePosicao.z = 0; // Mantém no mesmo plano 2D
+
+            switch (touch.phase)
+            {
+                case TouchPhase.Began:
+                    // Verifica se o toque atingiu a peça
+                    Collider2D hit = Physics2D.OverlapPoint(toquePosicao);
+                    if (hit != null && hit.gameObject == gameObject)
+                    {
+                        arrastando = true;
+                        offset = transform.position - toquePosicao; // Ajuste para pegar no ponto certo
+                    }
+                    break;
+
+                case TouchPhase.Moved:
+                    if (arrastando)
+                    {
+                        transform.position = toquePosicao + offset;
+                    }
+                    break;
+
+                case TouchPhase.Ended:
+                    arrastando = false;
+
+                    // Verifica se a peça está próxima do local correto
+                    if (Vector3.Distance(transform.position, posicaoInicial) < 0.5f)
+                    {
+                        transform.position = posicaoInicial;
+                        Debug.Log("Pedaço encaixado!");
+                    }
+                    else
+                    {
+                        Debug.Log("Posição errada!");
+                    }
+                    break;
+            }
         }
     }
 }

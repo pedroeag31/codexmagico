@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "tabuleiro programa\xE7\xE3o_0": 2753611952171900383
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
