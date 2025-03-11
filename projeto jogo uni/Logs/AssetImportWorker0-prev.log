@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.39f1 (15ea7ed0b100) revision 1436286'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'pt' Physical Memory: 16068 MB
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'pt' Physical Memory: 32675 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\6000.0.39f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/iseac/OneDrive/Área de Trabalho/codexmagico/projeto jogo uni
+C:/Users/Win11/Documents/Unity/codexmagico/projeto jogo uni
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52920
+53194
 -job-worker-count
-9
+7
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: C:/Users/iseac/OneDrive/Área de Trabalho/codexmagico/projeto jogo uni
-C:/Users/iseac/OneDrive/Área de Trabalho/codexmagico/projeto jogo uni
+Successfully changed project path to: C:/Users/Win11/Documents/Unity/codexmagico/projeto jogo uni
+C:/Users/Win11/Documents/Unity/codexmagico/projeto jogo uni
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,13 +59,17 @@ C:/Users/iseac/OneDrive/Área de Trabalho/codexmagico/projeto jogo uni
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31944]  Target information:
+Player connection [13840]  Target information:
 
-Player connection [31944]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 3860765011 [EditorId] 3860765011 [Version] 1048832 [Id] WindowsEditor(7,RH-SUPORTE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [13840]  * "[IP] 192.168.18.19 [Port] 0 [Flags] 2 [Guid] 1516491358 [EditorId] 1516491358 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IS22320) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31944] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31944] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 9
+Player connection [13840]  * "[IP] 26.6.146.206 [Port] 0 [Flags] 2 [Guid] 1516491358 [EditorId] 1516491358 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IS22320) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13840]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 1516491358 [EditorId] 1516491358 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IS22320) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13840] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13840] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -76,79 +80,62 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.39f1 (15ea7ed0b100)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/iseac/OneDrive/Área de Trabalho/codexmagico/projeto jogo uni/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Win11/Documents/Unity/codexmagico/projeto jogo uni/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics (ID=0x4626)
-    Vendor:   Intel
-    VRAM:     8034 MB
-    Driver:   32.0.101.6078
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2487)
+    Vendor:   NVIDIA
+    VRAM:     12110 MB
+    Driver:   32.0.15.7216
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.39f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.009150 seconds.
-- Loaded All Assemblies, in  0.612 seconds
+Registered in 0.004084 seconds.
+- Loaded All Assemblies, in  0.366 seconds
 Native extension for Android target not found
-CommandWithNoStdoutInvokationFailure: Unable to start ADB server. Please make sure the Android SDK is installed and is properly configured in the Editor. See the Console for more details.
-  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x00060] in <9773a512b23d487996d713cfaa5485a3>:0 
-  at UnityEditor.Android.ADB.StartServer () [0x00013] in <9773a512b23d487996d713cfaa5485a3>:0 
-  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in <9773a512b23d487996d713cfaa5485a3>:0 
-  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x002ae] in <9773a512b23d487996d713cfaa5485a3>:0 
-  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00049] in <9773a512b23d487996d713cfaa5485a3>:0 
-  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00087] in <9773a512b23d487996d713cfaa5485a3>:0 
-  at UnityEditor.Android.TargetExtension.OnLoad () [0x000af] in <9773a512b23d487996d713cfaa5485a3>:0 
-  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x000ba] in <b47d645d7067453f81375d5477450acd>:0 
-UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules()
-
+Android Extension - Scanning For ADB Devices 1747 ms
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 16.509 seconds
-Domain Reload Profiling: 17118ms
-	BeginReloadAssembly (240ms)
+- Finished resetting the current domain, in  2.082 seconds
+Domain Reload Profiling: 2445ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (228ms)
-		LoadAssemblies (236ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (126ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (222ms)
-			TypeCache.Refresh (220ms)
-				TypeCache.ScanAssembly (202ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (128ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (16510ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (2082ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (16451ms)
+		SetupLoadedEditorAssemblies (2035ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16079ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (174ms)
-			ProcessInitializeOnLoadMethodAttributes (85ms)
+			InitializePlatformSupportModulesInManaged (1825ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -157,303 +144,238 @@ Domain Reload Profiling: 17118ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.28 seconds
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.997 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+- Loaded All Assemblies, in  1.758 seconds
 Failed to load build profile from Library/BuildProfiles/PlatformProfile.4e3c793746204150860bf175a9a41a05.asset.
-0x00007ffd3b6e9d2d (Unity) StackWalker::ShowCallstack
-0x00007ffd3b6f9ce9 (Unity) PlatformStacktrace::GetStacktrace
-0x00007ffd3c9673ae (Unity) Stacktrace::GetStacktrace
-0x00007ffd3cf0feef (Unity) DebugStringToFile
-0x00007ffd3a83a9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
-0x000002a21a302edd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
-0x000002a21a302da3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-0x000002a21a3029db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-0x000002a21a302760 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
-0x000002a21a30241a (Mono JIT Code) UnityEngine.Debug:LogWarning (object)
-0x000002a21a866f1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
-0x000002a21a8663b8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
-0x00007ffd37a668de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
-0x00007ffd379a8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
-0x00007ffd379a84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
-0x00007ffd3b60e034 (Unity) scripting_method_invoke
-0x00007ffd3b5e5db3 (Unity) ScriptingInvocation::Invoke
-0x00007ffd3b5e5e9e (Unity) ScriptingInvocation::InvokeChecked
-0x00007ffd3b6901e6 (Unity) SerializableManagedRef::CallMethod
-0x00007ffd3b5d0224 (Unity) MonoBehaviour::AwakeFromLoad
-0x00007ffd3b5db551 (Unity) ResetAndApplyDefaultReferencesOnNewMonoBehaviour
-0x00007ffd3b5e4261 (Unity) Scripting::CreateScriptableObjectWithType
-0x00007ffd3a7905ad (Unity) ScriptableObject_CUSTOM_CreateScriptableObjectInstanceFromType
-0x000002a21a8660bd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType_Injected (System.Type,bool)
-0x000002a21a865e9b (Mono JIT Code) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
-0x000002a21a865e43 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance (System.Type)
-0x000002a21a865dc3 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance<T_REF> ()
-0x000002a21a8657eb (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:CreateOrLoad ()
-0x000002a21a865643 (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:get_instance ()
-0x000002a21a864e4b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:GetActiveOrClassicBuildProfile (UnityEditor.BuildTarget,UnityEditor.StandaloneBuildSubtarget,string)
-0x000002a21a865286 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_int_int_object (object,intptr,intptr,intptr)
-0x00007ffd37a668de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
-0x00007ffd379a8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
-0x00007ffd379a84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
-0x00007ffd3b60e034 (Unity) scripting_method_invoke
-0x00007ffd3b5e5db3 (Unity) ScriptingInvocation::Invoke
-0x00007ffd3b5e0fee (Unity) ScriptingInvocation::Invoke<ScriptingObjectPtr>
-0x00007ffd3b73e3d7 (Unity) Scripting::UnityEditor::Build::Profile::BuildProfileContextProxy::GetActiveOrClassicBuildProfile
-0x00007ffd3c23a100 (Unity) EditorUserBuildSettings::GetSelectedAndroidBuildTextureSubtarget
-0x00007ffd3c234078 (Unity) EditorUserBuildSettings::GetActiveSubTargetFor
-0x00007ffd3c4cfb0c (Unity) GetPlaybackEngineVariationManagedDirectory
-0x00007ffd3c4d19fa (Unity) GetUnityEngineDllForBuildTarget
-0x00007ffd3c8088cd (Unity) GetUnityAssemblies
-0x00007ffd3c812d18 (Unity) GetUnityAssembliesManaged
-0x00007ffd3c8134a6 (Unity) InitializeManagedCompilationPipeline
-0x00007ffd3c81614b (Unity) ReinitializeUserTargetAssemblies
-0x00007ffd3cc459f5 (Unity) UpdateScriptCompilationPipelineCaches
-0x00007ffd3cb5c4a4 (Unity) AssetImportWorkerClient::RegisterTransientArtifacts
-0x00007ffd3cb5c72a (Unity) AssetImportWorkerClient::ReloadScriptingDomain
-0x00007ffd3cb373c7 (Unity) <lambda_f96845ab1106210ce31769f863340c0d>::operator()
-0x00007ffd3cc19e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007ffd3cc076ea (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007ffd3cc08a1e (Unity) asio::detail::win_iocp_io_context::run
-0x00007ffd3cc1847c (Unity) IOService::Run
-0x00007ffd3cb607a6 (Unity) RunAssetImportWorkerClientV2
-0x00007ffd3cb6086b (Unity) RunAssetImporterV2
-0x00007ffd3c36a0e8 (Unity) Application::InitializeProject
-0x00007ffd3c9719a5 (Unity) UnityMain
-0x00007ff71b012fba (Unity) __scrt_common_main_seh
-0x00007ffe2afa259d (KERNEL32) BaseThreadInitThunk
-0x00007ffe2c12af38 (ntdll) RtlUserThreadStart
+0x00007ff92e579d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e589ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f7f73ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fd9feef (Unity) DebugStringToFile
+0x00007ff92d6ca9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x000001717fc62d4d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x000001717fc62c13 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x000001717fc6284b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x000001717fc625d0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x000001717fc6228a (Mono JIT Code) UnityEngine.Debug:LogWarning (object)
+0x000001717fcc6f1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+0x000001717fcc63b8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff928eb68de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff928df8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff928df84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e49e034 (Unity) scripting_method_invoke
+0x00007ff92e475db3 (Unity) ScriptingInvocation::Invoke
+0x00007ff92e475e9e (Unity) ScriptingInvocation::InvokeChecked
+0x00007ff92e5201e6 (Unity) SerializableManagedRef::CallMethod
+0x00007ff92e460224 (Unity) MonoBehaviour::AwakeFromLoad
+0x00007ff92e46b551 (Unity) ResetAndApplyDefaultReferencesOnNewMonoBehaviour
+0x00007ff92e474261 (Unity) Scripting::CreateScriptableObjectWithType
+0x00007ff92d6205ad (Unity) ScriptableObject_CUSTOM_CreateScriptableObjectInstanceFromType
+0x000001717fcc60bd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType_Injected (System.Type,bool)
+0x000001717fcc5e9b (Mono JIT Code) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+0x000001717fcc5e43 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance (System.Type)
+0x000001717fcc5dc3 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance<T_REF> ()
+0x000001717fcc57eb (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:CreateOrLoad ()
+0x000001717fcc5643 (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:get_instance ()
+0x000001717fcc4e4b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:GetActiveOrClassicBuildProfile (UnityEditor.BuildTarget,UnityEditor.StandaloneBuildSubtarget,string)
+0x000001717fcc5286 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_int_int_object (object,intptr,intptr,intptr)
+0x00007ff928eb68de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff928df8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff928df84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e49e034 (Unity) scripting_method_invoke
+0x00007ff92e475db3 (Unity) ScriptingInvocation::Invoke
+0x00007ff92e470fee (Unity) ScriptingInvocation::Invoke<ScriptingObjectPtr>
+0x00007ff92e5ce3d7 (Unity) Scripting::UnityEditor::Build::Profile::BuildProfileContextProxy::GetActiveOrClassicBuildProfile
+0x00007ff92f0ca100 (Unity) EditorUserBuildSettings::GetSelectedAndroidBuildTextureSubtarget
+0x00007ff92f0c4078 (Unity) EditorUserBuildSettings::GetActiveSubTargetFor
+0x00007ff92f35fb0c (Unity) GetPlaybackEngineVariationManagedDirectory
+0x00007ff92f3619fa (Unity) GetUnityEngineDllForBuildTarget
+0x00007ff92f6988cd (Unity) GetUnityAssemblies
+0x00007ff92f6a2d18 (Unity) GetUnityAssembliesManaged
+0x00007ff92f6a34a6 (Unity) InitializeManagedCompilationPipeline
+0x00007ff92f6a614b (Unity) ReinitializeUserTargetAssemblies
+0x00007ff92fad59f5 (Unity) UpdateScriptCompilationPipelineCaches
+0x00007ff92f9ec4a4 (Unity) AssetImportWorkerClient::RegisterTransientArtifacts
+0x00007ff92f9ec72a (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9c73c7 (Unity) <lambda_f96845ab1106210ce31769f863340c0d>::operator()
+0x00007ff92faa9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fa976ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fa98a1e (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92faa847c (Unity) IOService::Run
+0x00007ff92f9f07a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92f9f086b (Unity) RunAssetImporterV2
+0x00007ff92f1fa0e8 (Unity) Application::InitializeProject
+0x00007ff92f8019a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
 
 Failed to load build profile from Library/BuildProfiles/PlatformProfile.b9b35072a6f44c2e863f17467ea3dc13.asset.
-0x00007ffd3b6e9d2d (Unity) StackWalker::ShowCallstack
-0x00007ffd3b6f9ce9 (Unity) PlatformStacktrace::GetStacktrace
-0x00007ffd3c9673ae (Unity) Stacktrace::GetStacktrace
-0x00007ffd3cf0feef (Unity) DebugStringToFile
-0x00007ffd3a83a9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
-0x000002a21a302edd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
-0x000002a21a302da3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-0x000002a21a3029db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-0x000002a21a302760 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
-0x000002a21a30241a (Mono JIT Code) UnityEngine.Debug:LogWarning (object)
-0x000002a21a866f1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
-0x000002a21a8663b8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
-0x00007ffd37a668de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
-0x00007ffd379a8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
-0x00007ffd379a84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
-0x00007ffd3b60e034 (Unity) scripting_method_invoke
-0x00007ffd3b5e5db3 (Unity) ScriptingInvocation::Invoke
-0x00007ffd3b5e5e9e (Unity) ScriptingInvocation::InvokeChecked
-0x00007ffd3b6901e6 (Unity) SerializableManagedRef::CallMethod
-0x00007ffd3b5d0224 (Unity) MonoBehaviour::AwakeFromLoad
-0x00007ffd3b5db551 (Unity) ResetAndApplyDefaultReferencesOnNewMonoBehaviour
-0x00007ffd3b5e4261 (Unity) Scripting::CreateScriptableObjectWithType
-0x00007ffd3a7905ad (Unity) ScriptableObject_CUSTOM_CreateScriptableObjectInstanceFromType
-0x000002a21a8660bd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType_Injected (System.Type,bool)
-0x000002a21a865e9b (Mono JIT Code) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
-0x000002a21a865e43 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance (System.Type)
-0x000002a21a865dc3 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance<T_REF> ()
-0x000002a21a8657eb (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:CreateOrLoad ()
-0x000002a21a865643 (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:get_instance ()
-0x000002a21a864e4b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:GetActiveOrClassicBuildProfile (UnityEditor.BuildTarget,UnityEditor.StandaloneBuildSubtarget,string)
-0x000002a21a865286 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_int_int_object (object,intptr,intptr,intptr)
-0x00007ffd37a668de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
-0x00007ffd379a8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
-0x00007ffd379a84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
-0x00007ffd3b60e034 (Unity) scripting_method_invoke
-0x00007ffd3b5e5db3 (Unity) ScriptingInvocation::Invoke
-0x00007ffd3b5e0fee (Unity) ScriptingInvocation::Invoke<ScriptingObjectPtr>
-0x00007ffd3b73e3d7 (Unity) Scripting::UnityEditor::Build::Profile::BuildProfileContextProxy::GetActiveOrClassicBuildProfile
-0x00007ffd3c23a100 (Unity) EditorUserBuildSettings::GetSelectedAndroidBuildTextureSubtarget
-0x00007ffd3c234078 (Unity) EditorUserBuildSettings::GetActiveSubTargetFor
-0x00007ffd3c4cfb0c (Unity) GetPlaybackEngineVariationManagedDirectory
-0x00007ffd3c4d19fa (Unity) GetUnityEngineDllForBuildTarget
-0x00007ffd3c8088cd (Unity) GetUnityAssemblies
-0x00007ffd3c812d18 (Unity) GetUnityAssembliesManaged
-0x00007ffd3c8134a6 (Unity) InitializeManagedCompilationPipeline
-0x00007ffd3c81614b (Unity) ReinitializeUserTargetAssemblies
-0x00007ffd3cc459f5 (Unity) UpdateScriptCompilationPipelineCaches
-0x00007ffd3cb5c4a4 (Unity) AssetImportWorkerClient::RegisterTransientArtifacts
-0x00007ffd3cb5c72a (Unity) AssetImportWorkerClient::ReloadScriptingDomain
-0x00007ffd3cb373c7 (Unity) <lambda_f96845ab1106210ce31769f863340c0d>::operator()
-0x00007ffd3cc19e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007ffd3cc076ea (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007ffd3cc08a1e (Unity) asio::detail::win_iocp_io_context::run
-0x00007ffd3cc1847c (Unity) IOService::Run
-0x00007ffd3cb607a6 (Unity) RunAssetImportWorkerClientV2
-0x00007ffd3cb6086b (Unity) RunAssetImporterV2
-0x00007ffd3c36a0e8 (Unity) Application::InitializeProject
-0x00007ffd3c9719a5 (Unity) UnityMain
-0x00007ff71b012fba (Unity) __scrt_common_main_seh
-0x00007ffe2afa259d (KERNEL32) BaseThreadInitThunk
-0x00007ffe2c12af38 (ntdll) RtlUserThreadStart
-
-Failed to load build profile from Library/BuildProfiles/PlatformProfile.84a3bb9e7420477f885e98145999eb20.asset.
-0x00007ffd3b6e9d2d (Unity) StackWalker::ShowCallstack
-0x00007ffd3b6f9ce9 (Unity) PlatformStacktrace::GetStacktrace
-0x00007ffd3c9673ae (Unity) Stacktrace::GetStacktrace
-0x00007ffd3cf0feef (Unity) DebugStringToFile
-0x00007ffd3a83a9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
-0x000002a21a302edd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
-0x000002a21a302da3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-0x000002a21a3029db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-0x000002a21a302760 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
-0x000002a21a30241a (Mono JIT Code) UnityEngine.Debug:LogWarning (object)
-0x000002a21a866f1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
-0x000002a21a8663b8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
-0x00007ffd37a668de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
-0x00007ffd379a8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
-0x00007ffd379a84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
-0x00007ffd3b60e034 (Unity) scripting_method_invoke
-0x00007ffd3b5e5db3 (Unity) ScriptingInvocation::Invoke
-0x00007ffd3b5e5e9e (Unity) ScriptingInvocation::InvokeChecked
-0x00007ffd3b6901e6 (Unity) SerializableManagedRef::CallMethod
-0x00007ffd3b5d0224 (Unity) MonoBehaviour::AwakeFromLoad
-0x00007ffd3b5db551 (Unity) ResetAndApplyDefaultReferencesOnNewMonoBehaviour
-0x00007ffd3b5e4261 (Unity) Scripting::CreateScriptableObjectWithType
-0x00007ffd3a7905ad (Unity) ScriptableObject_CUSTOM_CreateScriptableObjectInstanceFromType
-0x000002a21a8660bd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType_Injected (System.Type,bool)
-0x000002a21a865e9b (Mono JIT Code) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
-0x000002a21a865e43 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance (System.Type)
-0x000002a21a865dc3 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance<T_REF> ()
-0x000002a21a8657eb (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:CreateOrLoad ()
-0x000002a21a865643 (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:get_instance ()
-0x000002a21a864e4b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:GetActiveOrClassicBuildProfile (UnityEditor.BuildTarget,UnityEditor.StandaloneBuildSubtarget,string)
-0x000002a21a865286 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_int_int_object (object,intptr,intptr,intptr)
-0x00007ffd37a668de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
-0x00007ffd379a8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
-0x00007ffd379a84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
-0x00007ffd3b60e034 (Unity) scripting_method_invoke
-0x00007ffd3b5e5db3 (Unity) ScriptingInvocation::Invoke
-0x00007ffd3b5e0fee (Unity) ScriptingInvocation::Invoke<ScriptingObjectPtr>
-0x00007ffd3b73e3d7 (Unity) Scripting::UnityEditor::Build::Profile::BuildProfileContextProxy::GetActiveOrClassicBuildProfile
-0x00007ffd3c23a100 (Unity) EditorUserBuildSettings::GetSelectedAndroidBuildTextureSubtarget
-0x00007ffd3c234078 (Unity) EditorUserBuildSettings::GetActiveSubTargetFor
-0x00007ffd3c4cfb0c (Unity) GetPlaybackEngineVariationManagedDirectory
-0x00007ffd3c4d19fa (Unity) GetUnityEngineDllForBuildTarget
-0x00007ffd3c8088cd (Unity) GetUnityAssemblies
-0x00007ffd3c812d18 (Unity) GetUnityAssembliesManaged
-0x00007ffd3c8134a6 (Unity) InitializeManagedCompilationPipeline
-0x00007ffd3c81614b (Unity) ReinitializeUserTargetAssemblies
-0x00007ffd3cc459f5 (Unity) UpdateScriptCompilationPipelineCaches
-0x00007ffd3cb5c4a4 (Unity) AssetImportWorkerClient::RegisterTransientArtifacts
-0x00007ffd3cb5c72a (Unity) AssetImportWorkerClient::ReloadScriptingDomain
-0x00007ffd3cb373c7 (Unity) <lambda_f96845ab1106210ce31769f863340c0d>::operator()
-0x00007ffd3cc19e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007ffd3cc076ea (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007ffd3cc08a1e (Unity) asio::detail::win_iocp_io_context::run
-0x00007ffd3cc1847c (Unity) IOService::Run
-0x00007ffd3cb607a6 (Unity) RunAssetImportWorkerClientV2
-0x00007ffd3cb6086b (Unity) RunAssetImporterV2
-0x00007ffd3c36a0e8 (Unity) Application::InitializeProject
-0x00007ffd3c9719a5 (Unity) UnityMain
-0x00007ff71b012fba (Unity) __scrt_common_main_seh
-0x00007ffe2afa259d (KERNEL32) BaseThreadInitThunk
-0x00007ffe2c12af38 (ntdll) RtlUserThreadStart
+0x00007ff92e579d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e589ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f7f73ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fd9feef (Unity) DebugStringToFile
+0x00007ff92d6ca9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x000001717fc62d4d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x000001717fc62c13 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x000001717fc6284b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x000001717fc625d0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x000001717fc6228a (Mono JIT Code) UnityEngine.Debug:LogWarning (object)
+0x000001717fcc6f1b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+0x000001717fcc63b8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff928eb68de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff928df8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff928df84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e49e034 (Unity) scripting_method_invoke
+0x00007ff92e475db3 (Unity) ScriptingInvocation::Invoke
+0x00007ff92e475e9e (Unity) ScriptingInvocation::InvokeChecked
+0x00007ff92e5201e6 (Unity) SerializableManagedRef::CallMethod
+0x00007ff92e460224 (Unity) MonoBehaviour::AwakeFromLoad
+0x00007ff92e46b551 (Unity) ResetAndApplyDefaultReferencesOnNewMonoBehaviour
+0x00007ff92e474261 (Unity) Scripting::CreateScriptableObjectWithType
+0x00007ff92d6205ad (Unity) ScriptableObject_CUSTOM_CreateScriptableObjectInstanceFromType
+0x000001717fcc60bd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType_Injected (System.Type,bool)
+0x000001717fcc5e9b (Mono JIT Code) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+0x000001717fcc5e43 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance (System.Type)
+0x000001717fcc5dc3 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance<T_REF> ()
+0x000001717fcc57eb (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:CreateOrLoad ()
+0x000001717fcc5643 (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:get_instance ()
+0x000001717fcc4e4b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:GetActiveOrClassicBuildProfile (UnityEditor.BuildTarget,UnityEditor.StandaloneBuildSubtarget,string)
+0x000001717fcc5286 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_int_int_object (object,intptr,intptr,intptr)
+0x00007ff928eb68de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff928df8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff928df84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e49e034 (Unity) scripting_method_invoke
+0x00007ff92e475db3 (Unity) ScriptingInvocation::Invoke
+0x00007ff92e470fee (Unity) ScriptingInvocation::Invoke<ScriptingObjectPtr>
+0x00007ff92e5ce3d7 (Unity) Scripting::UnityEditor::Build::Profile::BuildProfileContextProxy::GetActiveOrClassicBuildProfile
+0x00007ff92f0ca100 (Unity) EditorUserBuildSettings::GetSelectedAndroidBuildTextureSubtarget
+0x00007ff92f0c4078 (Unity) EditorUserBuildSettings::GetActiveSubTargetFor
+0x00007ff92f35fb0c (Unity) GetPlaybackEngineVariationManagedDirectory
+0x00007ff92f3619fa (Unity) GetUnityEngineDllForBuildTarget
+0x00007ff92f6988cd (Unity) GetUnityAssemblies
+0x00007ff92f6a2d18 (Unity) GetUnityAssembliesManaged
+0x00007ff92f6a34a6 (Unity) InitializeManagedCompilationPipeline
+0x00007ff92f6a614b (Unity) ReinitializeUserTargetAssemblies
+0x00007ff92fad59f5 (Unity) UpdateScriptCompilationPipelineCaches
+0x00007ff92f9ec4a4 (Unity) AssetImportWorkerClient::RegisterTransientArtifacts
+0x00007ff92f9ec72a (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9c73c7 (Unity) <lambda_f96845ab1106210ce31769f863340c0d>::operator()
+0x00007ff92faa9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fa976ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fa98a1e (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92faa847c (Unity) IOService::Run
+0x00007ff92f9f07a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92f9f086b (Unity) RunAssetImporterV2
+0x00007ff92f1fa0e8 (Unity) Application::InitializeProject
+0x00007ff92f8019a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
 
 Failed to load shared profile from Library/BuildProfiles/SharedProfile.asset.
-0x00007ffd3b6e9d2d (Unity) StackWalker::ShowCallstack
-0x00007ffd3b6f9ce9 (Unity) PlatformStacktrace::GetStacktrace
-0x00007ffd3c9673ae (Unity) Stacktrace::GetStacktrace
-0x00007ffd3cf0feef (Unity) DebugStringToFile
-0x00007ffd3a83a9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
-0x000002a21a302edd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
-0x000002a21a302da3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-0x000002a21a3029db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-0x000002a21a302760 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
-0x000002a21a30241a (Mono JIT Code) UnityEngine.Debug:LogWarning (object)
-0x000002a21a867163 (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
-0x000002a21a8663b8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
-0x00007ffd37a668de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
-0x00007ffd379a8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
-0x00007ffd379a84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
-0x00007ffd3b60e034 (Unity) scripting_method_invoke
-0x00007ffd3b5e5db3 (Unity) ScriptingInvocation::Invoke
-0x00007ffd3b5e5e9e (Unity) ScriptingInvocation::InvokeChecked
-0x00007ffd3b6901e6 (Unity) SerializableManagedRef::CallMethod
-0x00007ffd3b5d0224 (Unity) MonoBehaviour::AwakeFromLoad
-0x00007ffd3b5db551 (Unity) ResetAndApplyDefaultReferencesOnNewMonoBehaviour
-0x00007ffd3b5e4261 (Unity) Scripting::CreateScriptableObjectWithType
-0x00007ffd3a7905ad (Unity) ScriptableObject_CUSTOM_CreateScriptableObjectInstanceFromType
-0x000002a21a8660bd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType_Injected (System.Type,bool)
-0x000002a21a865e9b (Mono JIT Code) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
-0x000002a21a865e43 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance (System.Type)
-0x000002a21a865dc3 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance<T_REF> ()
-0x000002a21a8657eb (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:CreateOrLoad ()
-0x000002a21a865643 (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:get_instance ()
-0x000002a21a864e4b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:GetActiveOrClassicBuildProfile (UnityEditor.BuildTarget,UnityEditor.StandaloneBuildSubtarget,string)
-0x000002a21a865286 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_int_int_object (object,intptr,intptr,intptr)
-0x00007ffd37a668de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
-0x00007ffd379a8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
-0x00007ffd379a84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
-0x00007ffd3b60e034 (Unity) scripting_method_invoke
-0x00007ffd3b5e5db3 (Unity) ScriptingInvocation::Invoke
-0x00007ffd3b5e0fee (Unity) ScriptingInvocation::Invoke<ScriptingObjectPtr>
-0x00007ffd3b73e3d7 (Unity) Scripting::UnityEditor::Build::Profile::BuildProfileContextProxy::GetActiveOrClassicBuildProfile
-0x00007ffd3c23a100 (Unity) EditorUserBuildSettings::GetSelectedAndroidBuildTextureSubtarget
-0x00007ffd3c234078 (Unity) EditorUserBuildSettings::GetActiveSubTargetFor
-0x00007ffd3c4cfb0c (Unity) GetPlaybackEngineVariationManagedDirectory
-0x00007ffd3c4d19fa (Unity) GetUnityEngineDllForBuildTarget
-0x00007ffd3c8088cd (Unity) GetUnityAssemblies
-0x00007ffd3c812d18 (Unity) GetUnityAssembliesManaged
-0x00007ffd3c8134a6 (Unity) InitializeManagedCompilationPipeline
-0x00007ffd3c81614b (Unity) ReinitializeUserTargetAssemblies
-0x00007ffd3cc459f5 (Unity) UpdateScriptCompilationPipelineCaches
-0x00007ffd3cb5c4a4 (Unity) AssetImportWorkerClient::RegisterTransientArtifacts
-0x00007ffd3cb5c72a (Unity) AssetImportWorkerClient::ReloadScriptingDomain
-0x00007ffd3cb373c7 (Unity) <lambda_f96845ab1106210ce31769f863340c0d>::operator()
-0x00007ffd3cc19e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007ffd3cc076ea (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007ffd3cc08a1e (Unity) asio::detail::win_iocp_io_context::run
-0x00007ffd3cc1847c (Unity) IOService::Run
-0x00007ffd3cb607a6 (Unity) RunAssetImportWorkerClientV2
-0x00007ffd3cb6086b (Unity) RunAssetImporterV2
-0x00007ffd3c36a0e8 (Unity) Application::InitializeProject
-0x00007ffd3c9719a5 (Unity) UnityMain
-0x00007ff71b012fba (Unity) __scrt_common_main_seh
-0x00007ffe2afa259d (KERNEL32) BaseThreadInitThunk
-0x00007ffe2c12af38 (ntdll) RtlUserThreadStart
+0x00007ff92e579d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e589ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f7f73ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fd9feef (Unity) DebugStringToFile
+0x00007ff92d6ca9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x000001717fc62d4d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x000001717fc62c13 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x000001717fc6284b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x000001717fc625d0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x000001717fc6228a (Mono JIT Code) UnityEngine.Debug:LogWarning (object)
+0x000001717fcc7163 (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+0x000001717fcc63b8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff928eb68de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff928df8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff928df84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e49e034 (Unity) scripting_method_invoke
+0x00007ff92e475db3 (Unity) ScriptingInvocation::Invoke
+0x00007ff92e475e9e (Unity) ScriptingInvocation::InvokeChecked
+0x00007ff92e5201e6 (Unity) SerializableManagedRef::CallMethod
+0x00007ff92e460224 (Unity) MonoBehaviour::AwakeFromLoad
+0x00007ff92e46b551 (Unity) ResetAndApplyDefaultReferencesOnNewMonoBehaviour
+0x00007ff92e474261 (Unity) Scripting::CreateScriptableObjectWithType
+0x00007ff92d6205ad (Unity) ScriptableObject_CUSTOM_CreateScriptableObjectInstanceFromType
+0x000001717fcc60bd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType_Injected (System.Type,bool)
+0x000001717fcc5e9b (Mono JIT Code) UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+0x000001717fcc5e43 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance (System.Type)
+0x000001717fcc5dc3 (Mono JIT Code) UnityEngine.ScriptableObject:CreateInstance<T_REF> ()
+0x000001717fcc57eb (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:CreateOrLoad ()
+0x000001717fcc5643 (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:get_instance ()
+0x000001717fcc4e4b (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:GetActiveOrClassicBuildProfile (UnityEditor.BuildTarget,UnityEditor.StandaloneBuildSubtarget,string)
+0x000001717fcc5286 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_int_int_object (object,intptr,intptr,intptr)
+0x00007ff928eb68de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff928df8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff928df84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e49e034 (Unity) scripting_method_invoke
+0x00007ff92e475db3 (Unity) ScriptingInvocation::Invoke
+0x00007ff92e470fee (Unity) ScriptingInvocation::Invoke<ScriptingObjectPtr>
+0x00007ff92e5ce3d7 (Unity) Scripting::UnityEditor::Build::Profile::BuildProfileContextProxy::GetActiveOrClassicBuildProfile
+0x00007ff92f0ca100 (Unity) EditorUserBuildSettings::GetSelectedAndroidBuildTextureSubtarget
+0x00007ff92f0c4078 (Unity) EditorUserBuildSettings::GetActiveSubTargetFor
+0x00007ff92f35fb0c (Unity) GetPlaybackEngineVariationManagedDirectory
+0x00007ff92f3619fa (Unity) GetUnityEngineDllForBuildTarget
+0x00007ff92f6988cd (Unity) GetUnityAssemblies
+0x00007ff92f6a2d18 (Unity) GetUnityAssembliesManaged
+0x00007ff92f6a34a6 (Unity) InitializeManagedCompilationPipeline
+0x00007ff92f6a614b (Unity) ReinitializeUserTargetAssemblies
+0x00007ff92fad59f5 (Unity) UpdateScriptCompilationPipelineCaches
+0x00007ff92f9ec4a4 (Unity) AssetImportWorkerClient::RegisterTransientArtifacts
+0x00007ff92f9ec72a (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9c73c7 (Unity) <lambda_f96845ab1106210ce31769f863340c0d>::operator()
+0x00007ff92faa9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fa976ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fa98a1e (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92faa847c (Unity) IOService::Run
+0x00007ff92f9f07a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92f9f086b (Unity) RunAssetImporterV2
+0x00007ff92f1fa0e8 (Unity) Application::InitializeProject
+0x00007ff92f8019a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
 
-Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
 BuildProfileContext singleton already exists.
-0x00007ffd3b6e9d2d (Unity) StackWalker::ShowCallstack
-0x00007ffd3b6f9ce9 (Unity) PlatformStacktrace::GetStacktrace
-0x00007ffd3c9673ae (Unity) Stacktrace::GetStacktrace
-0x00007ffd3cf0feef (Unity) DebugStringToFile
-0x00007ffd3a83a9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
-0x000002a21a302edd (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
-0x000002a21a302da3 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-0x000002a21a3029db (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-0x000002a21a302760 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
-0x000002a22bd65d45 (Mono JIT Code) UnityEngine.Debug:LogError (object)
-0x000002a21a8662bb (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
-0x000002a21a8663b8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
-0x00007ffd37a668de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
-0x00007ffd379a8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
-0x00007ffd379a84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
-0x00007ffd3b5b03a5 (Unity) mono_runtime_object_init_exception
-0x00007ffd3b60fd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
-0x00007ffd3b691cdd (Unity) SerializableManagedRef::RebuildMonoInstance
-0x00007ffd3b5b1f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
-0x00007ffd3b6923ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
-0x00007ffd3b5d3de4 (Unity) MonoManager::FinalizeReload
-0x00007ffd3cb0cd75 (Unity) ScriptingInitializer::FinalizeReload
-0x00007ffd3cb5c72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
-0x00007ffd3cb373c7 (Unity) <lambda_f96845ab1106210ce31769f863340c0d>::operator()
-0x00007ffd3cc19e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x00007ffd3cc076ea (Unity) asio::detail::win_iocp_io_context::do_one
-0x00007ffd3cc08a1e (Unity) asio::detail::win_iocp_io_context::run
-0x00007ffd3cc1847c (Unity) IOService::Run
-0x00007ffd3cb607a6 (Unity) RunAssetImportWorkerClientV2
-0x00007ffd3cb6086b (Unity) RunAssetImporterV2
-0x00007ffd3c36a0e8 (Unity) Application::InitializeProject
-0x00007ffd3c9719a5 (Unity) UnityMain
-0x00007ff71b012fba (Unity) __scrt_common_main_seh
-0x00007ffe2afa259d (KERNEL32) BaseThreadInitThunk
-0x00007ffe2c12af38 (ntdll) RtlUserThreadStart
+0x00007ff92e579d2d (Unity) StackWalker::ShowCallstack
+0x00007ff92e589ce9 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ff92f7f73ae (Unity) Stacktrace::GetStacktrace
+0x00007ff92fd9feef (Unity) DebugStringToFile
+0x00007ff92d6ca9c5 (Unity) DebugLogHandler_CUSTOM_Internal_Log
+0x000001717fc62d4d (Mono JIT Code) (wrapper managed-to-native) UnityEngine.DebugLogHandler:Internal_Log_Injected (UnityEngine.LogType,UnityEngine.LogOption,UnityEngine.Bindings.ManagedSpanWrapper&,intptr)
+0x000001717fc62c13 (Mono JIT Code) UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+0x000001717fc6284b (Mono JIT Code) UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+0x000001717fc625d0 (Mono JIT Code) UnityEngine.Logger:Log (UnityEngine.LogType,object)
+0x000001717b9f1475 (Mono JIT Code) UnityEngine.Debug:LogError (object)
+0x000001717fcc62bb (Mono JIT Code) UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+0x000001717fcc63b8 (Mono JIT Code) (wrapper runtime-invoke) object:runtime_invoke_void__this__ (object,intptr,intptr,intptr)
+0x00007ff928eb68de (mono-2.0-bdwgc) mono_jit_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/mini/mini-runtime.c:3445)
+0x00007ff928df8404 (mono-2.0-bdwgc) do_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3068)
+0x00007ff928df84f0 (mono-2.0-bdwgc) mono_runtime_invoke (at C:/build/output/Unity-Technologies/mono/mono/metadata/object.c:3115)
+0x00007ff92e4403a5 (Unity) mono_runtime_object_init_exception
+0x00007ff92e49fd70 (Unity) scripting_unity_engine_object_new_and_invoke_default_constructor
+0x00007ff92e521cdd (Unity) SerializableManagedRef::RebuildMonoInstance
+0x00007ff92e441f24 (Unity) SerializableManagedRefTransfer::RestoreBackup<SerializableManagedRefBackupGenerator>
+0x00007ff92e5223ec (Unity) SerializableManagedRefsUtilities::RestoreBackups
+0x00007ff92e463de4 (Unity) MonoManager::FinalizeReload
+0x00007ff92f99cd75 (Unity) ScriptingInitializer::FinalizeReload
+0x00007ff92f9ec72f (Unity) AssetImportWorkerClient::ReloadScriptingDomain
+0x00007ff92f9c73c7 (Unity) <lambda_f96845ab1106210ce31769f863340c0d>::operator()
+0x00007ff92faa9e5e (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00007ff92fa976ea (Unity) asio::detail::win_iocp_io_context::do_one
+0x00007ff92fa98a1e (Unity) asio::detail::win_iocp_io_context::run
+0x00007ff92faa847c (Unity) IOService::Run
+0x00007ff92f9f07a6 (Unity) RunAssetImportWorkerClientV2
+0x00007ff92f9f086b (Unity) RunAssetImporterV2
+0x00007ff92f1fa0e8 (Unity) Application::InitializeProject
+0x00007ff92f8019a5 (Unity) UnityMain
+0x00007ff7af9f2fba (Unity) __scrt_common_main_seh
+0x00007ff9f5f2e8d7 (KERNEL32) BaseThreadInitThunk
+0x00007ff9f785bf2c (ntdll) RtlUserThreadStart
 
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 11.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
 Mono: successfully reloaded assembly
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -462,43 +384,140 @@ Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  2.974 seconds
-Domain Reload Profiling: 4963ms
-	BeginReloadAssembly (928ms)
+- Finished resetting the current domain, in  0.859 seconds
+Domain Reload Profiling: 2606ms
+	BeginReloadAssembly (1037ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (671ms)
+		DisableScriptedObjects (719ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (939ms)
-		LoadAssemblies (661ms)
+		CreateAndSetChildDomain (92ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (596ms)
+		LoadAssemblies (481ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (429ms)
-			TypeCache.Refresh (317ms)
-				TypeCache.ScanAssembly (286ms)
-			BuildScriptInfoCaches (93ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (2975ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (200ms)
+				TypeCache.ScanAssembly (178ms)
+			BuildScriptInfoCaches (56ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (859ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2577ms)
+		SetupLoadedEditorAssemblies (646ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (148ms)
-			ProcessInitializeOnLoadAttributes (1836ms)
-			ProcessInitializeOnLoadMethodAttributes (529ms)
-			AfterProcessingInitializeOnLoad (39ms)
-			EditorAssembliesLoaded (1ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (369ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (58ms)
-Refreshing native plugins compatible for Editor in 11.55 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 193 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6467 unused Assets / (3.5 MB). Loaded Objects now: 7170.
-Memory consumption went from 182.9 MB to 179.3 MB.
-Total: 28.432800 ms (FindLiveObjects: 1.824300 ms CreateObjectMapping: 1.758800 ms MarkObjects: 17.179300 ms  DeleteObjects: 7.665700 ms)
+Unloading 6455 unused Assets / (5.0 MB). Loaded Objects now: 7181.
+Memory consumption went from 178.6 MB to 173.6 MB.
+Total: 13.412100 ms (FindLiveObjects: 1.256200 ms CreateObjectMapping: 1.277300 ms MarkObjects: 7.311200 ms  DeleteObjects: 3.566500 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 2614.445246 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b2564eaa9f4e1c9db0aa8e3ea579112') in 0.0430555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acf2e09b47009d32ecc679585f8cdc70') in 0.0008259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.686801 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(109e9bdd0fcc649c5bc59085c35bdc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73258d2a0164082a0def4806f88e2269') in 0.0005167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.250003 seconds.
+  path: Assets/Scenes/quebra cabeça.unity
+  artifactKey: Guid(f0c3e825d44ab6f459450a728035afe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/quebra cabeça.unity using Guid(f0c3e825d44ab6f459450a728035afe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c657e3a38d3f83c69cd7f92dc4674900') in 0.0005329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.040709 seconds.
+  path: Assets/Scenes/minigame02.unity
+  artifactKey: Guid(fd7cabf142ac23140a966fab1f1066bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/minigame02.unity using Guid(fd7cabf142ac23140a966fab1f1066bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cffcad484ac3827ae6409e7a8a81ecd') in 0.0004998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.464868 seconds.
+  path: Assets/Scenes/minigame01.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/minigame01.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58b0c39b35aecc6e056ed52da425906b') in 0.0005125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3544.405431 seconds.
+  path: Assets/Scenes/Game - Designe.unity
+  artifactKey: Guid(dcc421016296c2144a37d73ad7e4765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game - Designe.unity using Guid(dcc421016296c2144a37d73ad7e4765b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64d3f7393e0c125a59e8e6b25a945291') in 0.0018491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 190.818008 seconds.
+  path: Assets/scri
+  artifactKey: Guid(5fe254daa02f9e54aa28f28f73dfbffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scri using Guid(5fe254daa02f9e54aa28f28f73dfbffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de18b2864ecbf71d7cc071b4fc828910') in 0.0006914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.806361 seconds.
+  path: Assets/Drag and Drop
+  artifactKey: Guid(ac183f980eaf37c499029eb7ac6a7402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Drag and Drop using Guid(ac183f980eaf37c499029eb7ac6a7402) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a67087be4108996e0d4f568549f2ada') in 0.0007546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.035425 seconds.
+  path: Assets/Game Designe
+  artifactKey: Guid(ac183f980eaf37c499029eb7ac6a7402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Designe using Guid(ac183f980eaf37c499029eb7ac6a7402) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e0bf55a45b2d289ccf7de7f88c10a1c') in 0.0005517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.796542 seconds.
+  path: Assets/Game Designe/Sprites
+  artifactKey: Guid(a8c0c48830af86e40a674b1eef8ec9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Designe/Sprites using Guid(a8c0c48830af86e40a674b1eef8ec9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '887934c6505e5f82bbe6aaa0edcd0492') in 0.0005574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.419183 seconds.
+  path: Assets/Game Designe/Scripts
+  artifactKey: Guid(fcb9fdded9f1d0044b9a83dfe0ac9521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Designe/Scripts using Guid(fcb9fdded9f1d0044b9a83dfe0ac9521) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6af11020729a7cd303a889d6c1e70fdf') in 0.0005436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+AssetImportWorkerClient::OnTransportError - code=10054 error=Foi for�ado o cancelamento de uma conex�o existente pelo host remoto.
