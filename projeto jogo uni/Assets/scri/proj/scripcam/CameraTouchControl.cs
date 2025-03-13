@@ -5,7 +5,7 @@ public class CameraTouchControl : MonoBehaviour
     private Vector2 touchStart;
     public float dragSpeed = 0.01f; // Velocidade do arrasto
 
-    // Limites da câmera
+    // Limites da câmera (ajustáveis no Inspector)
     public float minX = -10f, maxX = 10f, minY = -10f, maxY = 10f;
 
     void Update()

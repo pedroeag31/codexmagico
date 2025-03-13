@@ -1,23 +1,22 @@
-using UnityEngine;
-using UnityEngine.EventSystems;
+Ôªøusing UnityEngine;
 
-public class AreaEncaixe : MonoBehaviour, IDropHandler
+public class AreaEncaixe : MonoBehaviour
 {
-    public GameObject pecaCorreta; // ReferÍncia ao pedaÁo correto
+    public GameObject pecaCorreta; // Pe√ßa que deve encaixar aqui
+    private bool encaixado = false;
 
-    public void OnDrop(PointerEventData eventData)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        GameObject pecaArrastada = eventData.pointerDrag;
-
-        if (pecaArrastada != null && pecaArrastada == pecaCorreta)
+        if (!encaixado && other.gameObject == pecaCorreta)
         {
-            pecaArrastada.transform.position = transform.position; // Encaixa no lugar certo
-            pecaArrastada.GetComponent<CanvasGroup>().blocksRaycasts = true;
-            Debug.Log("PeÁa encaixada corretamente!");
+            other.transform.position = transform.position; // Ajusta a posi√ß√£o
+            other.GetComponent<ArrastarPeca>().BloquearMovimento(); // Bloqueia o movimento
+            encaixado = true;
+            Debug.Log("‚úÖ Pe√ßa encaixada corretamente!");
         }
         else
         {
-            Debug.Log("Essa peÁa n„o pertence aqui!");
+            Debug.Log("‚ùå Pe√ßa errada!");
         }
     }
 }
