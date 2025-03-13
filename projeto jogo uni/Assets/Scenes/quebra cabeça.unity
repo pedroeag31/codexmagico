@@ -600,12 +600,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 280066063}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c4d4375ce39d2d4c9bb551d4cc55508, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e5f8c0c73b6fc842854b214b0bbe122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ImagemOculta: {fileID: -5706190518321120510, guid: 149bba51d2a170746b2833aa2d234857, type: 3}
-  ImagemRevelada: {fileID: 543616533196966647, guid: 149bba51d2a170746b2833aa2d234857, type: 3}
-  index: 5
 --- !u!61 &280066067
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1346,12 +1343,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 586854830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c4d4375ce39d2d4c9bb551d4cc55508, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e5f8c0c73b6fc842854b214b0bbe122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ImagemOculta: {fileID: -5706190518321120510, guid: 149bba51d2a170746b2833aa2d234857, type: 3}
-  ImagemRevelada: {fileID: 543616533196966647, guid: 149bba51d2a170746b2833aa2d234857, type: 3}
-  index: 5
 --- !u!61 &586854834
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1524,12 +1518,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 656635808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c4d4375ce39d2d4c9bb551d4cc55508, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e5f8c0c73b6fc842854b214b0bbe122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ImagemOculta: {fileID: -5706190518321120510, guid: 149bba51d2a170746b2833aa2d234857, type: 3}
-  ImagemRevelada: {fileID: 543616533196966647, guid: 149bba51d2a170746b2833aa2d234857, type: 3}
-  index: 5
 --- !u!61 &656635812
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2207,12 +2198,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 757995134}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c4d4375ce39d2d4c9bb551d4cc55508, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e5f8c0c73b6fc842854b214b0bbe122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ImagemOculta: {fileID: -5706190518321120510, guid: 149bba51d2a170746b2833aa2d234857, type: 3}
-  ImagemRevelada: {fileID: 543616533196966647, guid: 149bba51d2a170746b2833aa2d234857, type: 3}
-  index: 6
 --- !u!61 &757995138
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2899,12 +2887,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1011421771}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c4d4375ce39d2d4c9bb551d4cc55508, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e5f8c0c73b6fc842854b214b0bbe122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ImagemOculta: {fileID: -5706190518321120510, guid: 149bba51d2a170746b2833aa2d234857, type: 3}
-  ImagemRevelada: {fileID: 543616533196966647, guid: 149bba51d2a170746b2833aa2d234857, type: 3}
-  index: 5
 --- !u!61 &1011421775
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4694,12 +4679,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1643423296}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c4d4375ce39d2d4c9bb551d4cc55508, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e5f8c0c73b6fc842854b214b0bbe122, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ImagemOculta: {fileID: -5706190518321120510, guid: 149bba51d2a170746b2833aa2d234857, type: 3}
-  ImagemRevelada: {fileID: 543616533196966647, guid: 149bba51d2a170746b2833aa2d234857, type: 3}
-  index: 5
 --- !u!61 &1643423300
 BoxCollider2D:
   m_ObjectHideFlags: 0
