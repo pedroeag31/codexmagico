@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Game - Designe.unity
+- path: "Assets/Scenes/Navega\xE7\xE3o.unity"
   isLoaded: 1
   isActive: 1
   isSubScene: 0

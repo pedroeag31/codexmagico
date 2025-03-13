@@ -26,6 +26,12 @@ MonoBehaviour:
     m_path: Assets/Scenes/minigame01.unity
   - m_enabled: 1
     m_path: Assets/Scenes/minigame02.unity
+  - m_enabled: 1
+    m_path: "Assets/Scenes/Navega\xE7\xE3o.unity"
+  - m_enabled: 1
+    m_path: "Assets/Scenes/quebra cabe\xE7a.unity"
+  - m_enabled: 1
+    m_path: Assets/Scenes/Game - Designe.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings:
