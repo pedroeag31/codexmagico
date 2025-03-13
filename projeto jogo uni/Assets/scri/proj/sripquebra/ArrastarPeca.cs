@@ -6,6 +6,11 @@ public class ArrastarPeca : MonoBehaviour
     private bool podeMover = true;
     private Vector3 offset;
 
+    void Start()
+    {
+        Debug.Log("✅ Script ArrastarPeca foi iniciado!");
+    }
+
     void Update()
     {
         if (Input.touchCount > 0)
@@ -15,7 +20,8 @@ public class ArrastarPeca : MonoBehaviour
 
             if (touch.phase == TouchPhase.Began)
             {
-                RaycastHit2D hit = Physics2D.Raycast(touchPosition, Vector2.zero);
+                RaycastHit2D hit = Physics2D.Raycast(touchPosition, Vector2.zero, Mathf.Infinity, ~0);
+                ;
                 if (hit.collider != null)
                 {
                     Debug.Log("🟢 Tocou em: " + hit.collider.gameObject.name);
