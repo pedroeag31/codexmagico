@@ -175,10 +175,12 @@ m_ResolvedPackages:
     - 5.1.0
     - 5.1.1
     - 5.1.2
+    - 5.1.3
     compatible:
     - 5.1.1
     - 5.1.2
-    recommended: 5.1.2
+    - 5.1.3
+    recommended: 5.1.3
     deprecated: []
   dependencies:
   - name: com.unity.profiling.core
@@ -5515,10 +5517,12 @@ m_ResolvedPackages:
     - 2.5.1
     - 2.5.2
     - 2.5.3
+    - 2.6.0-exp.2
     compatible:
     - 2.5.1
     - 2.5.2
     - 2.5.3
+    - 2.6.0-exp.2
     recommended: 2.5.3
     deprecated: []
   dependencies:
