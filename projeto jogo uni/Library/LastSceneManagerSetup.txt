@@ -1,5 +1,5 @@
 sceneSetups:
-- path: "Assets/Scenes/quebra cabe\xE7a.unity"
+- path: Assets/Scenes/DESENHO.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

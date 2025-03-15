@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 297.59998
     height: 716.8
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 79.200005
+    y: 24
     width: 191
     height: 488.40002
   m_SerializedDataModeController:
@@ -366,8 +366,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 192
-    y: 79.200005
+    x: 193
+    y: 24
     width: 1044.4
     height: 488.40002
   m_SerializedDataModeController:
@@ -940,7 +940,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -5.3, y: -0.29999924, z: -0.98}
     speed: 2
-    m_Value: {x: -5.2999988, y: -0.299999, z: -0.9800007}
+    m_Value: {x: -5.3, y: -0.29999924, z: -0.98}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1048,7 +1048,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 593.60004
+    y: 538.4
     width: 1237.4
     height: 176.39996
   m_SerializedDataModeController:
@@ -1093,7 +1093,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 106.79999}
     m_SelectedIDs: 98bb0000
     m_LastClickedID: 48024
-    m_ExpandedIDs: 00000000d4ae0000d6ae0000d8ae0000daae0000dcae0000deae0000e0ae000088bb0000
+    m_ExpandedIDs: 0000000094ae000096ae000098ae00009aae00009cae00009eae0000a0ae0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1122,7 +1122,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d4ae0000d6ae0000d8ae0000daae0000dcae0000deae0000e0ae0000
+    m_ExpandedIDs: 0000000094ae000096ae000098ae00009aae00009cae00009eae0000a0ae0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1237,8 +1237,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1238.4
-    y: 79.200005
+    x: 1239.4
+    y: 24
     width: 296.59998
     height: 690.8
   m_SerializedDataModeController:
@@ -1317,7 +1317,7 @@ MonoBehaviour:
   m_UseMipMap: 0
   m_SimulatorState:
     controlPanelVisible: 0
-    controlPanelWidth: 0
+    controlPanelWidth: NaN
     controlPanelFoldoutKeys:
     - UnityEditor.AdaptivePerformance.Editor.AdaptivePerformanceUIExtension
     - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
