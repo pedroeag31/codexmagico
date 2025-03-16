@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement; // Adicionado para gerenciamento de cena
 
 public class GameManagerDesigner : MonoBehaviour
 {
@@ -16,6 +17,7 @@ public class GameManagerDesigner : MonoBehaviour
     public Text questionText;
     public Text scoreText;
     public Button[] answerButtons;
+    public Button voltarButton; // Botão novo para voltar à navegação
 
     // Efeitos sonoros
     public AudioClip correctSound;
@@ -32,11 +34,13 @@ public class GameManagerDesigner : MonoBehaviour
         // Inicializa o AudioSource
         audioSource = gameObject.AddComponent<AudioSource>();
 
+        // Configura botão de voltar como inativo inicialmente
+        voltarButton.gameObject.SetActive(false);
+
         // Inicializa perguntas e carrega a primeira
         LoadQuestion(currentQuestionIndex);
         UpdateScoreDisplay();
     }
-
 
     void LoadQuestion(int index)
     {
@@ -69,46 +73,42 @@ public class GameManagerDesigner : MonoBehaviour
         // Feedback visual
         if (isCorrect)
         {
-            answerButtons[selectedIndex].image.color = Color.green; // Botão fica verde
-            PlaySound(correctSound); // Toca som de acerto
-            score += 10; // Adiciona pontos
+            answerButtons[selectedIndex].image.color = Color.green;
+            PlaySound(correctSound);
+            score += 10;
         }
         else
         {
-            answerButtons[selectedIndex].image.color = Color.red; // Botão fica vermelho
-            PlaySound(wrongSound); // Toca som de erro
+            answerButtons[selectedIndex].image.color = Color.red;
+            PlaySound(wrongSound);
         }
 
-        // Atualiza a pontuação
         UpdateScoreDisplay();
-
-        // Avança para a próxima pergunta após um pequeno delay
-        Invoke("LoadNextQuestion", 1f); // 1 segundo de delay
+        Invoke("LoadNextQuestion", 1f);
     }
 
     void LoadNextQuestion()
     {
         currentQuestionIndex++;
 
-        // Verifica se ainda há perguntas
         if (currentQuestionIndex < questions.Count)
         {
             LoadQuestion(currentQuestionIndex);
         }
         else
         {
-            // Fim do jogo
+            // Fim do jogo: mostra texto, esconde botões e ativa botão de voltar
             questionText.text = "Fim do Jogo! Pontuação: " + score;
             foreach (Button btn in answerButtons)
             {
-                btn.gameObject.SetActive(false); // Esconde os botões
+                btn.gameObject.SetActive(false);
             }
+            voltarButton.gameObject.SetActive(true); // Ativa o botão de voltar
         }
     }
 
     void UpdateScoreDisplay()
     {
-        // Atualiza o texto da pontuação
         scoreText.text = "Pontos: " + score;
     }
 
@@ -116,7 +116,13 @@ public class GameManagerDesigner : MonoBehaviour
     {
         if (clip != null && audioSource != null)
         {
-            audioSource.PlayOneShot(clip); // Toca o som
+            audioSource.PlayOneShot(clip);
         }
+    }
+
+    // Método novo para carregar a cena de navegação
+    public void VoltarParaNavegacao()
+    {
+        SceneManager.LoadScene("Navegação");
     }
 }

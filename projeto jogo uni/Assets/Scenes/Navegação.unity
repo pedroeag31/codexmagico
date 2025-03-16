@@ -1145,8 +1145,8 @@ MonoBehaviour:
   - 
   - 
   - 
+  - DESENHO
   - Game - Designe
-  - 
   backgroundImages:
   - {fileID: 7195200184650347063, guid: 5aa3bd1623c91af48860b74e1f4c5fba, type: 3}
   - {fileID: -4877254765619184459, guid: c6ce217ee8999754c8429409fb83c96f, type: 3}

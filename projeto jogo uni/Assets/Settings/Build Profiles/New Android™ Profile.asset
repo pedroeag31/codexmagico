@@ -21,6 +21,7 @@ MonoBehaviour:
   m_OverrideGlobalSceneList: 1
   m_Scenes:
   - m_enabled: 1
+<<<<<<< Updated upstream
     m_path: Assets/Scenes/map.unity
   - m_enabled: 1
     m_path: Assets/Scenes/minigame01.unity
@@ -32,6 +33,13 @@ MonoBehaviour:
     m_path: "Assets/Scenes/quebra cabe\xE7a.unity"
   - m_enabled: 1
     m_path: Assets/Scenes/Game - Designe.unity
+=======
+    m_path: "Assets/Scenes/Navega\xE7\xE3o.unity"
+  - m_enabled: 1
+    m_path: Assets/Scenes/Game - Designe.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/DESENHO.unity
+>>>>>>> Stashed changes
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings:

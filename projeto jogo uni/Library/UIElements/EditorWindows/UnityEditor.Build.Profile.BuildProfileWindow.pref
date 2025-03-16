@@ -38,5 +38,9 @@ MonoBehaviour:
   - '{"m_Value":true}'
   - '{"m_Value":true}'
   - '{"m_Value":true}'
+<<<<<<< Updated upstream
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":662.0}'
+=======
+  - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":616.0}'
+>>>>>>> Stashed changes
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
