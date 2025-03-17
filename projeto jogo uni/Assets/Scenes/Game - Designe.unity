@@ -534,8 +534,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -431.2531, y: -242.5166}
-  m_SizeDelta: {x: 489.4938, y: 152.9668}
+  m_AnchoredPosition: {x: -393.91138, y: -348.53607}
+  m_SizeDelta: {x: 1085.7416, y: 479.3336}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &303371223
 MonoBehaviour:
@@ -605,9 +605,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogParts:
-  - text: udushudihsiuahduhsauihduihsaudhuasihd
+  - text: "Ah, finalmente, um aspirante a Forjador de Mundos apareceu! J\xE1 estava
+      come\xE7ando a achar que ningu\xE9m tinha coragem suficiente para encarar O
+      Desafio do Mago Dev. "
     typingSpeed: 0.2
-  - text: usdhiuhsauidhuisahudihsauihduisahuidhua
+  - text: " Mas, antes que voc\xEA se ache especial, deixa eu te explicar uma coisinha...Voc\xEA
+      quer 1 milh\xE3o de BitGold, prest\xEDgio e o direito de se chamar um verdadeiro
+      Designer M\xE1gico?\n"
+    typingSpeed: 0.2
+  - text: "F\xE1cil! S\xF3 precisa responder 10 perguntinhas ridiculamente simples
+      sobre Game Design.\r\n\u2026 S\xF3 que n\xE3o.\n"
+    typingSpeed: 0.2
+  - text: "Aqui, meus caros aprendizes, cada pergunta \xE9 um feiti\xE7o de sabedoria.
+      Errar significa se perder no abismo da ignor\xE2ncia, enquanto acertar te aproxima
+      do tesouro supremo\r\n\r\n"
+    typingSpeed: 0.2
+  - text: "E n\xE3o se preocupe, vou assistir de camarote enquanto voc\xEA tenta
+      n\xE3o trope\xE7ar nas pr\xF3prias ideias!\r\n\r\n"
+    typingSpeed: 0.2
+  - text: "As Regras s\xE3o Simples:\r\nResponda 10 perguntas sobre Game Design.\r\nCada
+      acerto te deixa mais rico. .\r\n"
+    typingSpeed: 0.2
+  - text: "Cada erro... bem, digamos que os deuses do design n\xE3o gostam de incompet\xEAncia.\r\n\r\n"
+    typingSpeed: 0.2
+  - text: "Existem ajudas m\xE1gicas, mas cuidado: usar demais pode revelar sua inseguran\xE7a
+      intelectual\r\n\r\n"
+    typingSpeed: 0.2
+  - text: "Se errar antes da quinta pergunta, eu pessoalmente rascunho seu epit\xE1fio
+      no Mural dos Game Over.\r\n\r\n"
+    typingSpeed: 0.2
+  - text: "Agora, a pergunta que n\xE3o quer calar:\r\nVoc\xEA tem coragem de aceitar
+      o desafio do Mago Dev ou vai correr para o tutorial mais pr\xF3ximo?\r\n\r\n\r\n"
+    typingSpeed: 0.2
+  - text: "\rSe decidir jogar, clique no bot\xE3o \"Entrar no Desafio\", e boa sorte...
+      voc\xEA vai precisar!\r\n\r\n"
     typingSpeed: 0.2
   dialogText: {fileID: 1767908551}
   dialogPanel: {fileID: 303371221}
@@ -1453,8 +1484,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0009079, y: 0.00070572}
-  m_SizeDelta: {x: 589.49, y: 252.97}
+  m_AnchoredPosition: {x: -0.0015106, y: 0.00097656}
+  m_SizeDelta: {x: 1113.6, y: 532.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1767908551
 MonoBehaviour:
@@ -1532,8 +1563,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -486.24487, y: 157.59564}
-  m_SizeDelta: {x: 257.0042, y: 568.1581}
+  m_AnchoredPosition: {x: -872, y: -19}
+  m_SizeDelta: {x: 548.8515, y: 690.5458}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1815206106
 MonoBehaviour:
@@ -1555,7 +1586,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 8518407627879685364, guid: 7b4de578141018e47b468c54fa6ac5ae, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1692,20 +1723,77 @@ MonoBehaviour:
   correctSound: {fileID: 8300000, guid: 2d8415fb7092ed343be01a707826d0f0, type: 3}
   wrongSound: {fileID: 8300000, guid: 4e1c6138769be2b4a9edc7acd41dc6be, type: 3}
   questions:
-  - question: "Qual \xE9 mais legal?"
+  - question: "1\uFE0F - O que \xE9 Game Design? "
     answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - " A) O c\xF3digo que faz um jogo funcionar "
+    - "B) A parte gr\xE1fica de um jogo"
+    - " C) O planejamento e cria\xE7\xE3o da experi\xEAncia do jogo "
+    - ' D) O processo de marketing dos jogos'
+    correctAnswerIndex: 2
+  - question: "2- Qual destes elementos N\xC3O faz parte do Game Design?"
+    answers:
+    - " A) Mec\xE2nicas"
+    - ' B) Narrativa'
+    - " C) M\xFAsica "
+    - " D) Progress\xE3o"
+    correctAnswerIndex: 2
+  - question: "3\uFE0F - O que significa o termo \u201CLoop de Gameplay\u201D?"
+    answers:
+    - ' A) Um bug que reinicia o jogo'
+    - "B) A repeti\xE7\xE3o de a\xE7\xF5es fundamentais no jogo "
+    - C) O fim da narrativa do jogo
+    - "D) A m\xFAsica que toca repetidamente"
     correctAnswerIndex: 1
-  - question: "Qual \xE9 menos legal?"
+  - question: "4\uFE0F - Quem \xE9 considerado o pai dos videogames?"
     answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    correctAnswerIndex: 3
+    - A) Shigeru Miyamoto
+    - 'B) Nolan Bushnell '
+    - C) Hideo Kojima
+    - D) Ralph Baer
+    correctAnswerIndex: 1
+  - question: "5\uFE0F - O que \xE9 um \"Core Loop\" em Game Design?"
+    answers:
+    - "A) Um ciclo central de a\xE7\xF5es repetitivas "
+    - " B) Um bug cr\xEDtico no jogo"
+    - C) O tutorial inicial do jogo
+    - "D) Um tipo de intelig\xEAncia artificial "
+    correctAnswerIndex: 0
+  - question: "6\uFE0F - O que \xE9 \"Juiciness\" no Game Design?"
+    answers:
+    - "A) Sensa\xE7\xE3o t\xE1til e visual que melhora a resposta do jogo "
+    - " B) Mec\xE2nica de f\xEDsica aplicada"
+    - "C) Um tipo de mec\xE2nica de monetiza\xE7\xE3o"
+    - "D) Um m\xE9todo de balanceamento de jogo"
+    correctAnswerIndex: 0
+  - question: "7\uFE0F - O que \xE9 \"Flow\" no Game Design?"
+    answers:
+    - "A) Um estado de imers\xE3o onde desafio e habilidade est\xE3o equilibrados"
+    - B) Uma fase do desenvolvimento de um jogo
+    - "C) O ciclo de monetiza\xE7\xE3o"
+    - " D) O controle da f\xEDsica no jogo"
+    correctAnswerIndex: 0
+  - question: "8\uFE0F - Qual destes jogos foi um dos primeiros a utilizar o conceito
+      de \"Metroidvania\"?"
+    answers:
+    - A) Super Mario Bros
+    - ' B) Metroid'
+    - C) Final Fantasy
+    - D) Pong
+    correctAnswerIndex: 1
+  - question: "9\uFE0F - O que \xE9 \"MDA\" no Game Design?"
+    answers:
+    - A) Mechanics, Dynamics, Aesthetics
+    - B) Model, Design, Aesthetics
+    - C) Movement, Direction, Action
+    - D) Multiplayer, Design, Animation
+    correctAnswerIndex: 0
+  - question: "10 - O que \xE9 \"Emerg\xEAncia\" em Game Design?"
+    answers:
+    - "A) Quando um jogo cria situa\xE7\xF5es inesperadas a partir das mec\xE2nicas"
+    - B) Quando o jogo tem muitos bugs
+    - " C) Quando um jogo tem m\xFAltiplos finais"
+    - " D) Quando o jogador precisa tomar decis\xF5es r\xE1pidas"
+    correctAnswerIndex: 0
 --- !u!4 &2054713876
 Transform:
   m_ObjectHideFlags: 0
