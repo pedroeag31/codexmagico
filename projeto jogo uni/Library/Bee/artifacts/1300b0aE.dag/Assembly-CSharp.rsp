@@ -452,7 +452,7 @@
 "Assets/scri/proj/sripquebra/AreaEncaixe.cs"
 "Assets/scri/proj/sripquebra/ArrastarPeca.cs"
 "Assets/scri/proj/sripquebra/TesteToque.cs"
-"Assets/scri/proj/test/scri/ArrastarPeca.cs"
+"Assets/scri/proj/test/scri/ArrastarPeca1.cs"
 "Assets/scri/proj/test/scri/QuebraCabecaController.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
