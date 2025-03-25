@@ -1187,3 +1187,7 @@ Received Import Request.
 Start importing Assets/scri/images/Slots/slot25.png using Guid(b3a0aec89902ea9418f6365d03dada9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ad543ec025c2d4326844ffa96d010af') in 0.0100807 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
