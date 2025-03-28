@@ -1,10 +1,10 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class ArrastarPeca1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    private Vector3 posicaoInicial;
+    private Vector2 posicaoInicial;
     public Transform slotCorreto;
     private RectTransform rectTransform;
     public CanvasGroup canvasGroup;
@@ -14,7 +14,7 @@ public class ArrastarPeca1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
 
-        posicaoInicial = rectTransform.anchoredPosition; // Guarda a posi��o inicial
+        posicaoInicial = rectTransform.anchoredPosition; // Guarda a posição inicial
     }
 
     public void DefinirSlotCorreto(Transform slot)
@@ -24,13 +24,13 @@ public class ArrastarPeca1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        canvasGroup.alpha = 0.7f;  // Deixa a pe�a um pouco transparente
+        canvasGroup.alpha = 0.7f;  // Deixa a peça um pouco transparente
         canvasGroup.blocksRaycasts = false; // Permite arrastar sobre outros elementos UI
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        // Atualiza a posi��o usando o toque
+        // Atualiza a posição usando o toque
         rectTransform.anchoredPosition += eventData.delta;
     }
 
@@ -39,16 +39,24 @@ public class ArrastarPeca1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
 
-        // Verifica se a pe�a est� no slot correto
-        if (Vector2.Distance(rectTransform.anchoredPosition, slotCorreto.GetComponent<RectTransform>().anchoredPosition) < 50f)
+        // Verifica se a peça está no slot correto
+        float distancia = Vector2.Distance(rectTransform.anchoredPosition, slotCorreto.GetComponent<RectTransform>().anchoredPosition);
+
+        Debug.Log($"Peça {gameObject.name} solta na posição: {rectTransform.anchoredPosition}, distância do slot: {distancia}");
+
+        if (distancia < 50f)
         {
             rectTransform.anchoredPosition = slotCorreto.GetComponent<RectTransform>().anchoredPosition;
-            canvasGroup.blocksRaycasts = false; // Impede que a pe�a seja arrastada novamente
+            canvasGroup.blocksRaycasts = false; // Impede que a peça seja arrastada novamente
+
+            Debug.Log($"✅ Peça {gameObject.name} encaixada corretamente!");
+
             QuebraCabecaController.Instance.VerificarVitoria();
         }
         else
         {
-            rectTransform.anchoredPosition = posicaoInicial; // Volta para a posi��o inicial
+            rectTransform.anchoredPosition = posicaoInicial; // Volta para a posição inicial
+            Debug.Log($"❌ Peça {gameObject.name} voltou para a posição inicial.");
         }
     }
 }
