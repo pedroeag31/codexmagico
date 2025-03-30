@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class ArrastarPeca1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    private Vector2 posicaoInicial;
+    private Vector3 posicaoInicial;
     public Transform slotCorreto;
     private RectTransform rectTransform;
     public CanvasGroup canvasGroup;
@@ -42,21 +42,19 @@ public class ArrastarPeca1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         // Verifica se a peça está no slot correto
         float distancia = Vector2.Distance(rectTransform.anchoredPosition, slotCorreto.GetComponent<RectTransform>().anchoredPosition);
 
-        Debug.Log($"Peça {gameObject.name} solta na posição: {rectTransform.anchoredPosition}, distância do slot: {distancia}");
+        Debug.Log($"Peca: {gameObject.name} | Distancia do slot: {distancia}");
 
         if (distancia < 50f)
         {
             rectTransform.anchoredPosition = slotCorreto.GetComponent<RectTransform>().anchoredPosition;
             canvasGroup.blocksRaycasts = false; // Impede que a peça seja arrastada novamente
-
-            Debug.Log($"✅ Peça {gameObject.name} encaixada corretamente!");
-
+            Debug.Log($"✅ Peça {gameObject.name} posicionada corretamente!");
             QuebraCabecaController.Instance.VerificarVitoria();
         }
         else
         {
+            Debug.Log($"❌ Peça {gameObject.name} NÃO está no local certo! Retornando à posição inicial.");
             rectTransform.anchoredPosition = posicaoInicial; // Volta para a posição inicial
-            Debug.Log($"❌ Peça {gameObject.name} voltou para a posição inicial.");
         }
     }
 }
