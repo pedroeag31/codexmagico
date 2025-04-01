@@ -227,7 +227,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &61397646
 Transform:
   m_ObjectHideFlags: 0
@@ -427,7 +427,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &177359423
 Transform:
   m_ObjectHideFlags: 0
@@ -496,7 +496,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &238628351
 Transform:
   m_ObjectHideFlags: 0
@@ -675,7 +675,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &312216802
 Transform:
   m_ObjectHideFlags: 0
@@ -799,7 +799,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &351890152
 Transform:
   m_ObjectHideFlags: 0
@@ -999,7 +999,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &415888156
 Transform:
   m_ObjectHideFlags: 0
@@ -1123,7 +1123,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &460567403
 Transform:
   m_ObjectHideFlags: 0
@@ -1411,7 +1411,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &652610723
 Transform:
   m_ObjectHideFlags: 0
@@ -1480,7 +1480,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &700678665
 Transform:
   m_ObjectHideFlags: 0
@@ -1659,7 +1659,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &759933312
 Transform:
   m_ObjectHideFlags: 0
@@ -1783,7 +1783,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &839862983
 Transform:
   m_ObjectHideFlags: 0
@@ -1986,7 +1986,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &945831279
 Transform:
   m_ObjectHideFlags: 0
@@ -2110,7 +2110,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &959576047
 Transform:
   m_ObjectHideFlags: 0
@@ -2234,7 +2234,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &963726401
 Transform:
   m_ObjectHideFlags: 0
@@ -2437,7 +2437,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &1266238782
 Transform:
   m_ObjectHideFlags: 0
@@ -2722,7 +2722,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &1373419563
 Transform:
   m_ObjectHideFlags: 0
@@ -3067,7 +3067,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &1567413243
 Transform:
   m_ObjectHideFlags: 0
@@ -3136,7 +3136,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &1592044700
 Transform:
   m_ObjectHideFlags: 0
@@ -3614,7 +3614,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &1853303765
 Transform:
   m_ObjectHideFlags: 0
@@ -3738,7 +3738,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 1
 --- !u!4 &2057948387
 Transform:
   m_ObjectHideFlags: 0
