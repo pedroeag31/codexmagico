@@ -55,6 +55,8 @@ public class ArrastarPeca1 : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         {
             Debug.Log($"❌ Peça {gameObject.name} NÃO está no local certo! Retornando à posição inicial.");
             rectTransform.anchoredPosition = posicaoInicial; // Volta para a posição inicial
+            AudioManager.Instance.TocarSomErro();
+
         }
     }
 }

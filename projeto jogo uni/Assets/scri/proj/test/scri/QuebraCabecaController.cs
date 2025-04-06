@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
@@ -6,11 +6,12 @@ public class QuebraCabecaController : MonoBehaviour
 {
     public static QuebraCabecaController Instance;
 
-    public GameObject telaVitoria; // Painel de vitória
+    public GameObject telaVitoria; // Painel de vitÃ³ria
     public GameObject telaDerrota; // Painel de derrota
-    public GameObject[] paginasQuebraCabeca; // Lista de páginas do quebra-cabeça
+    public GameObject[] paginasQuebraCabeca; // Lista de pÃ¡ginas do quebra-cabeÃ§a
     public Text temporizadorTexto; // UI do tempo
     public float tempoMaximo = 60f; // Tempo limite em segundos
+    public AudioSource somVirarPagina;
 
     private int paginaAtual = 0;
     private ArrastarPeca1[] pecas;
@@ -74,7 +75,14 @@ public class QuebraCabecaController : MonoBehaviour
     {
         jogoAtivo = false;
         telaVitoria.SetActive(true);
-        yield return new WaitForSeconds(2f);
+
+        // ðŸ‘‰ TOCA O SOM AQUI
+        if (somVirarPagina != null)
+        {
+            somVirarPagina.Play();
+        }
+
+        yield return new WaitForSeconds(2f); // Aguarda tempo da vitÃ³ria
         telaVitoria.SetActive(false);
 
         if (paginaAtual < paginasQuebraCabeca.Length - 1)
@@ -85,14 +93,15 @@ public class QuebraCabecaController : MonoBehaviour
         }
         else
         {
-            Debug.Log("Todos os quebra-cabeças foram completados!");
+            Debug.Log("Todos os quebra-cabeÃ§as foram completados!");
         }
     }
+
 
     void Derrota()
     {
         jogoAtivo = false;
         telaDerrota.SetActive(true);
-        Debug.Log("Tempo esgotado! Você perdeu.");
+        Debug.Log("Tempo esgotado! VocÃª perdeu.");
     }
 }
