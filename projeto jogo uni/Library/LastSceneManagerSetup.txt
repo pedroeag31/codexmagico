@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/DESENHO.unity
+- path: C:/Users/iseac/Downloads/projeto jogo uni v4/projeto jogo uni/Assets/Scenes/Corredor3.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
